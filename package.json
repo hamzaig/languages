@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/hamzaig/languages#readme",
   "dependencies": {
-    "languages-details": "^1.0.0"
+    "languages-details": "^1.0.1"
   }
 }
