@@ -21,22 +21,23 @@ exports.checkTranslationAvailability = function (code) {
   if (matchedLanguages.length > 0) {
     
     return matchedLanguages.map(language => ({
-      name: language.name,  
+      name: language.name,
+      locale: language.locale,  
       googleTranslate: !!language.googleTranslate,
       microsoftTranslate: !!language.microsoftTranslate,
       deeplTranslate: !!language.deeplTranslate,
       awsTranslate: !!language.awsTranslate,
       ibmTranslate: !!language.ibmTranslate,
-      awsTranscribe: !!language.awsTranscribe,
-      googleStt: !!language.googleStt,
-      googleTTS: !!language.googleTTS,
-      awsPolly: !!language.awsPolly
+      awsTranscribe: !!language.awsTranscribe ? language.awsTranscribe.code : false,
+      googleStt: !!language.googleStt ? language.googleStt.code  : false,
+      googleTTS: !!language.googleTTS ? language.googleTTS.code  : false,
+      awsPolly: !!language.awsPolly ? language.awsPolly.code  : false
     }));
   }
   return null;
 };
 
 
-console.log(exports.checkTranslationAvailability('ar'));
+console.log(exports.checkTranslationAvailability('en'));
 
 

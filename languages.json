@@ -24,7 +24,14 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "af-ZA" },
     "googleStt": { "code": "af-ZA" },
-    "googleTTS": { "code": "af-ZA" },
+    "googleTTS": { "code": "af-ZA", "voice": [{
+      "languageCodes": [
+        "af-ZA"
+      ],
+      "name": "af-ZA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -51,7 +58,7 @@
     "awsTranslate": "am",
     "ibmTranslate": false,
     "awsTranscribe": false,
-    "googleStt": { "code": "am-ET" },
+    "googleStt": { "code": "am-ET"},
     "googleTTS": false,
     "awsPolly": false
   },
@@ -66,7 +73,72 @@
     "ibmTranslate": "ar",
     "awsTranscribe": { "code": "ar-SA" },
     "googleStt": { "code": "ar-SA" },
-    "googleTTS": { "code": "ar-XA" },
+    "googleTTS": { "code": "ar-XA", "voice": [ 
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-B",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-D",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-B",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-D",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      }   
+    ]},
     "awsPolly": { "code": "arb" }
   },
   {
@@ -434,7 +506,7 @@
     "ibmTranslate": "eu",
     "awsTranscribe": { "code": "eu-ES" },
     "googleStt": { "code": "eu-ES" },
-    "googleTTS": { "code": "eu-ES" },
+    "googleTTS": { "code": "eu-ES"  },
     "awsPolly": false
 
   },
@@ -479,7 +551,70 @@
     "ibmTranslate": "bn",
     "awsTranscribe": { "code": "bn-IN" },
     "googleStt": { "code": "bn-IN" },
-    "googleTTS": { "code": "bn-IN" },
+    "googleTTS": { "code": "bn-IN", "voice": [ {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
 
   },
@@ -524,7 +659,14 @@
     "ibmTranslate": "bg",
     "awsTranscribe": { "code": "bg-BG" },
     "googleStt": { "code": "bg-BG" },
-    "googleTTS": { "code": "bg-BG" },
+    "googleTTS": { "code": "bg-BG", "voice":  {
+      "languageCodes": [
+        "bg-BG"
+      ],
+      "name": "bg-BG-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    } },
     "awsPolly": false
 
   },
@@ -554,7 +696,14 @@
     "ibmTranslate": "ca",
     "awsTranscribe": { "code": "ca-ES" },
     "googleStt": { "code": "ca-ES" },
-    "googleTTS": { "code": "ca-ES" },
+    "googleTTS": { "code": "ca-ES", "voice": [ {
+      "languageCodes": [
+        "ca-ES"
+      ],
+      "name": "ca-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
     "awsPolly": {"code": "ca-ES"}
   },
   {
@@ -613,7 +762,70 @@
     "ibmTranslate": "zh",
     "awsTranscribe": { "code": "zh-CN" },
     "googleStt": { "code": "cmn-Hans-CN" },
-    "googleTTS": false,
+    "googleTTS": { "code": "cmn-CN", "voice":[ {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"cmn-CN"}
 
   },
@@ -628,7 +840,57 @@
     "ibmTranslate": "zh-TW",
     "awsTranscribe": { "code": "zh-TW" },
     "googleStt": { "code": "cmn-Hant-TW" },
-    "googleTTS": { "code": "cmn-TW" }
+    "googleTTS": { "code": "cmn-TW", "voice":[ {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }
+      
+    ]},
+    "awsPolly": false
   },
   {
     "name": "Chinese  (Hong Kong Traditional)",
@@ -641,7 +903,38 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "yue-Hant-HK" },
     "googleStt": { "code": "yue-HK" },
-    "googleTTS": { "code": "yue-HK" },
+    "googleTTS": { "code": "yue-HK", "voice":[{
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"yue-CN"}
   },
   {
@@ -683,7 +976,22 @@
     "ibmTranslate": "cs",
     "awsTranscribe": { "code": "cs-CZ" },
     "googleStt": { "code": "cs-CZ" },
-    "googleTTS": { "code": "cs-CZ" },
+    "googleTTS": { "code": "cs-CZ" , "voice":[{
+      "languageCodes": [
+        "cs-CZ"
+      ],
+      "name": "cs-CZ-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cs-CZ"
+      ],
+      "name": "cs-CZ-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
     "awsPolly": false
   },
   {
@@ -697,7 +1005,78 @@
     "ibmTranslate": "da",
     "awsTranscribe": { "code": "da-DK" },
     "googleStt": { "code": "da-DK" },
-    "googleTTS": { "code": "da-DK" },
+    "googleTTS": { "code": "da-DK", "voice":[{
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"da-DK"}
   },
   {
@@ -751,7 +1130,86 @@
     "ibmTranslate": "nl",
     "awsTranscribe": { "code": "nl-NL" },
     "googleStt": { "code": "nl-NL" },
-    "googleTTS": { "code": "nl-NL" },
+    "googleTTS": { "code": "nl-NL", "voice":[ {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"nl-NL"}
   },
   {
@@ -765,7 +1223,38 @@
     "ibmTranslate": false,
     "awsTranscribe": false,
     "googleStt": { "code": "nl-BE" },
-    "googleTTS": { "code": "nl-BE" },
+    "googleTTS": { "code": "nl-BE", "voice":[ {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"nl-BE"}
   },
   {
@@ -779,7 +1268,318 @@
     "ibmTranslate": "en",
     "awsTranscribe": { "code": "en-US" },
     "googleStt": { "code": "en-US" },
-    "googleTTS": { "code": "en-US" },
+    "googleTTS": { "code": "en-US", "voice":[    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Casual-K",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-O",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-K",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-L",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-N",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Studio-O",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Studio-Q",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"en-US"}
   },
   {
@@ -793,7 +1593,134 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "en-AU" },
     "googleStt": { "code": "en-AU" },
-    "googleTTS": { "code": "en-AU" },
+    "googleTTS": { "code": "en-AU", "voice":[    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"en-AU"}
   },
   {
@@ -933,7 +1860,198 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "en-GB" },
     "googleStt": { "code": "en-GB" },
-    "googleTTS": { "code": "en-GB" },
+    "googleTTS": { "code": "en-GB", "voice":[ {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-I",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-K",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-L",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-M",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"en-GB"}
   },
   {
@@ -947,7 +2065,134 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "en-IN" },
     "googleStt": { "code": "en-IN" },
-    "googleTTS": { "code": "en-IN" },
+    "googleTTS": { "code": "en-IN", "voice":[{
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"en-IN"}
   },
   {
@@ -1074,7 +2319,88 @@
     "ibmTranslate": false,
     "awsTranscribe": false,
     "googleStt": { "code": "fil-PH" },
-    "googleTTS": { "code": "fil-PH" },
+    "googleTTS": { "code": "fil-PH", "voice":[
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-B",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-B",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-ph-Neural2-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-ph-Neural2-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      }
+    ] },
     "awsPolly": false
   },
   {
@@ -1088,7 +2414,22 @@
     "ibmTranslate": "fi",
     "awsTranscribe": { "code": "fi-FI" },
     "googleStt": { "code": "fi-FI" },
-    "googleTTS": { "code": "fi-FI" },
+    "googleTTS": { "code": "fi-FI", "voice":[    {
+      "languageCodes": [
+        "fi-FI"
+      ],
+      "name": "fi-FI-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fi-FI"
+      ],
+      "name": "fi-FI-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"fi-FI"}
   },
   {
@@ -1102,7 +2443,182 @@
     "ibmTranslate": "fr",
     "awsTranscribe": { "code": "fr-FR" },
     "googleStt": { "code": "fr-FR" },
-    "googleTTS": { "code": "fr-FR" },
+    "googleTTS": { "code": "fr-FR", "voice":[{
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Studio-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Studio-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"fr-FR"}
   },
   {
@@ -1116,7 +2632,102 @@
     "deeplTranslate": false,
     "awsTranscribe": { "code": "fr-CA" },
     "googleStt": { "code": "fr-CA" },
-    "googleTTS": { "code": "fr-CA" },
+    "googleTTS": { "code": "fr-CA","voice":[{
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"fr-CA"}
   },
   {
@@ -1172,7 +2783,14 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "gl-ES" },
     "googleStt": { "code": "gl-ES" },
-    "googleTTS": false,
+    "googleTTS": {"code": "gl-ES", "voice":[    {
+      "languageCodes": [
+        "gl-ES"
+      ],
+      "name": "gl-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
     "awsPolly": false
   },
   {
@@ -1200,7 +2818,198 @@
     "ibmTranslate": "de",
     "awsTranscribe": { "code": "de-DE" },
     "googleStt": { "code": "de-DE" },
-    "googleTTS": { "code": "de-DE" },
+    "googleTTS": { "code": "de-DE", "voice":[{
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-H",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-H",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"de-DE"}
   },
   {
@@ -1242,7 +3051,22 @@
     "ibmTranslate": "el",
     "awsTranscribe": { "code": "el-GR" },
     "googleStt": { "code": "el-GR" },
-    "googleTTS": { "code": "el-GR" },
+    "googleTTS": { "code": "el-GR","voice":[{
+      "languageCodes": [
+        "el-GR"
+      ],
+      "name": "el-GR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "el-GR"
+      ],
+      "name": "el-GR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1270,7 +3094,70 @@
     "ibmTranslate": "gu",
     "awsTranscribe": { "code": "gu-IN" },
     "googleStt": { "code": "gu-IN" },
-    "googleTTS": { "code": "gu-IN" },
+    "googleTTS": { "code": "gu-IN", "voice":[    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
 
@@ -1327,7 +3214,70 @@
     "ibmTranslate": "he",
     "awsTranscribe": { "code": "he-IL" },
     "googleStt": { "code": "he-IL" },
-    "googleTTS": { "code": "he-IL" },
+    "googleTTS": { "code": "he-IL", "voice":[ {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1341,7 +3291,134 @@
     "ibmTranslate": "hi",
     "awsTranscribe": { "code": "hi-IN" },
     "googleStt": { "code": "hi-IN" },
-    "googleTTS": { "code": "hi-IN" },
+    "googleTTS": { "code": "hi-IN", "voice":[    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"hi-IN"}
   },
   {
@@ -1369,7 +3446,22 @@
     "ibmTranslate": "hu",
     "awsTranscribe": { "code": "hu-HU" },
     "googleStt": { "code": "hu-HU" },
-    "googleTTS": { "code": "hu-HU" },
+    "googleTTS": { "code": "hu-HU","voice":[    {
+      "languageCodes": [
+        "hu-HU"
+      ],
+      "name": "hu-HU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hu-HU"
+      ],
+      "name": "hu-HU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1383,7 +3475,14 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "is-IS" },
     "googleStt": { "code": "is-IS" },
-    "googleTTS": { "code": "is-IS" },
+    "googleTTS": { "code": "is-IS", "voice":[ {
+      "languageCodes": [
+        "is-IS"
+      ],
+      "name": "is-IS-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"is-IS"}
   },
   {
@@ -1425,7 +3524,70 @@
     "ibmTranslate": "id",
     "awsTranscribe": { "code": "id-ID" },
     "googleStt": { "code": "id-ID" },
-    "googleTTS": { "code": "id-ID" },
+    "googleTTS": { "code": "id-ID", "voice":[{
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1453,7 +3615,86 @@
     "ibmTranslate": "it",
     "awsTranscribe": { "code": "it-IT" },
     "googleStt": { "code": "it-IT" },
-    "googleTTS": { "code": "it-IT" },
+    "googleTTS": { "code": "it-IT", "voice":[{
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"it-IT"}
   },
   {
@@ -1481,7 +3722,94 @@
     "ibmTranslate": "ja",
     "awsTranscribe": { "code": "ja-JP" },
     "googleStt": { "code": "ja-JP" },
-    "googleTTS": { "code": "ja-JP" },
+    "googleTTS": { "code": "ja-JP", "voice":[ {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"ja-JP"}
   },
   {
@@ -1509,7 +3837,70 @@
     "ibmTranslate": "kn",
     "awsTranscribe": { "code": "kn-IN" },
     "googleStt": { "code": "kn-IN" },
-    "googleTTS": { "code": "kn-IN" },
+    "googleTTS": { "code": "kn-IN", "voice":[{
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1593,7 +3984,94 @@
     "ibmTranslate": "ko",
     "awsTranscribe": { "code": "ko-KR" },
     "googleStt": { "code": "ko-KR" },
-    "googleTTS": { "code": "ko-KR" },
+    "googleTTS": { "code": "ko-KR", "voice":[    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"ko-KR"}
   },
   {
@@ -1691,7 +4169,14 @@
     "ibmTranslate": "lv",
     "awsTranscribe": { "code": "lv-LV" },
     "googleStt": { "code": "lv-LV" },
-    "googleTTS": { "code": "lv-LV" },
+    "googleTTS": { "code": "lv-LV","voice":[{
+      "languageCodes": [
+        "lv-LV"
+      ],
+      "name": "lv-LV-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1719,7 +4204,14 @@
     "ibmTranslate": "lt",
     "awsTranscribe": { "code": "lt-LT" },
     "googleStt": { "code": "lt-LT" },
-    "googleTTS": { "code": "lt-LT" },
+    "googleTTS": { "code": "lt-LT", "voice":[{
+      "languageCodes": [
+        "lt-LT"
+      ],
+      "name": "lt-LT-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1803,7 +4295,70 @@
     "ibmTranslate": "ms",
     "awsTranscribe": { "code": "ms-MY" },
     "googleStt": { "code": "ms-MY" },
-    "googleTTS": { "code": "ms-MY" },
+    "googleTTS": { "code": "ms-MY", "voice":[    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -1817,7 +4372,118 @@
     "ibmTranslate": "ml",
     "awsTranscribe": { "code": "ml-IN" },
     "googleStt": { "code": "ml-IN" },
-    "googleTTS": { "code": "ml-IN" },
+    "googleTTS": { "code": "ml-IN", "voice":[{
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
 
@@ -1986,7 +4652,86 @@
     "ibmTranslate": "no",
     "awsTranscribe": { "code": "no-NO" },
     "googleStt": { "code": "no-NO" },
-    "googleTTS": { "code": "no-NO" },
+    "googleTTS": { "code": "no-NO","voice":[    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": { "code": "nb-NO" }
   },
   {
@@ -2070,11 +4815,207 @@
     "ibmTranslate": "pl",
     "awsTranscribe": { "code": "pl-PL" },
     "googleStt": { "code": "pl-PL" },
-    "googleTTS": { "code": "pl-PL" },
+    "googleTTS": { "code": "pl-PL", "voice":[{
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"pl-PL"}
   },
   {
-    "name": "Portuguese (Portugal, Brazil)",
+    "name": "Portuguese (Brazil)",
+    "languageCodes": "pt",
+    "locale": "pt-BR",
+    "googleTranslate": "pt",
+    "microsoftTranslate": "pt",
+    "deeplTranslate": "PT",
+    "awsTranslate": "pt",
+    "ibmTranslate": "pt",
+    "awsTranscribe": { "code": "pt-BR" },
+    "googleStt": { "code": "pt-BR" },
+    "googleTTS": { "code": "pt-BR","voice":[    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }]},
+    "awsPolly": {"code":"pt-BR"}
+  },
+  {
+    "name": "Portuguese (Portugal)",
     "languageCodes": "pt",
     "locale": "pt-PT",
     "googleTranslate": "pt",
@@ -2084,7 +5025,70 @@
     "ibmTranslate": "pt",
     "awsTranscribe": { "code": "pt-PT" },
     "googleStt": { "code": "pt-PT" },
-    "googleTTS": { "code": "pt-PT" },
+    "googleTTS": { "code": "pt-PT", "voice":[{
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"pt-PT"}
   },
   {
@@ -2098,7 +5102,70 @@
     "ibmTranslate": "pa",
     "awsTranscribe": { "code": "pa-IN" },
     "googleStt": { "code": "pa-IN" },
-    "googleTTS": { "code": "pa-IN" },
+    "googleTTS": { "code": "pa-IN","voice":[ {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -2140,7 +5207,22 @@
     "ibmTranslate": "ro",
     "awsTranscribe": { "code": "ro-RO" },
     "googleStt": { "code": "ro-RO" },
-    "googleTTS": { "code": "ro-RO" },
+    "googleTTS": { "code": "ro-RO", "voice":[ {
+      "languageCodes": [
+        "ro-RO"
+      ],
+      "name": "ro-RO-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ro-RO"
+      ],
+      "name": "ro-RO-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"ro-RO"}
   },
   {
@@ -2154,7 +5236,86 @@
     "ibmTranslate": "ru",
     "awsTranscribe": { "code": "ru-RU" },
     "googleStt": { "code": "ru-RU" },
-    "googleTTS": { "code": "ru-RU" },
+    "googleTTS": { "code": "ru-RU", "voice":[{
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"ru-RU"}
   },
   {
@@ -2224,7 +5385,14 @@
     "ibmTranslate": "sr",
     "awsTranscribe": { "code": "sr-RS" },
     "googleStt": { "code": "sr-RS" },
-    "googleTTS": { "code": "sr-RS" },
+    "googleTTS": { "code": "sr-RS", "voice":[    {
+      "languageCodes": [
+        "sr-RS"
+      ],
+      "name": "sr-RS-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -2294,7 +5462,22 @@
     "ibmTranslate": "sk",
     "awsTranscribe": { "code": "sk-SK" },
     "googleStt": { "code": "sk-SK" },
-    "googleTTS": { "code": "sk-SK" },
+    "googleTTS": { "code": "sk-SK", "voice":[    {
+      "languageCodes": [
+        "sk-SK"
+      ],
+      "name": "sk-SK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sk-SK"
+      ],
+      "name": "sk-SK-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -2350,13 +5533,172 @@
     "ibmTranslate": "es",
     "awsTranscribe": { "code": "es-ES" },
     "googleStt": { "code": "es-ES" },
-    "googleTTS": { "code": "es-ES" },
+    "googleTTS": { "code": "es-ES","voice":[    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Studio-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": { "code": "es-ES" }
   },
   {
     "name": "Spanish (Mexico)",
     "languageCodes": "es",
-    "locale": "es-ES",
+    "locale": "es-MX",
     "googleTranslate": false,
     "microsoftTranslate": false,
     "deeplTranslate": false,
@@ -2615,7 +5957,134 @@
     "ibmTranslate": false,
     "awsTranscribe": { "code": "es-US" },
     "googleStt": { "code": "es-US" },
-    "googleTTS": { "code": "es-US" },
+    "googleTTS": { "code": "es-US", "voice":[{
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "eu-ES"
+      ],
+      "name": "eu-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"es-US"}
   },
   {
@@ -2725,7 +6194,86 @@
     "ibmTranslate": "sv",
     "awsTranscribe": { "code": "sv-SE" },
     "googleStt": { "code": "sv-SE" },
-    "googleTTS": { "code": "sv-SE" },
+    "googleTTS": { "code": "sv-SE", "voice":[    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code":"sv-SE"}
   },
   {
@@ -2752,7 +6300,70 @@
     "ibmTranslate": "ta",
     "awsTranscribe": { "code": "ta-IN" },
     "googleStt": { "code": "ta-IN" },
-    "googleTTS": { "code": "ta-IN" },
+    "googleTTS": { "code": "ta-IN", "voice":[{
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -2834,7 +6445,22 @@
     "ibmTranslate": "te",
     "awsTranscribe": { "code": "te-IN" },
     "googleStt": { "code": "te-IN" },
-    "googleTTS": { "code": "te-IN" },
+    "googleTTS": { "code": "te-IN", "voice":[ {
+      "languageCodes": [
+        "te-IN"
+      ],
+      "name": "te-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "te-IN"
+      ],
+      "name": "te-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -2848,7 +6474,22 @@
     "ibmTranslate": "th",
     "awsTranscribe": { "code": "th-TH" },
     "googleStt": { "code": "th-TH" },
-    "googleTTS": { "code": "th-TH" },
+    "googleTTS": { "code": "th-TH","voice":[ {
+      "languageCodes": [
+        "th-TH"
+      ],
+      "name": "th-TH-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "th-TH"
+      ],
+      "name": "th-TH-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
 
@@ -2905,7 +6546,86 @@
     "ibmTranslate": "tr",
     "awsTranscribe": { "code": "tr-TR" },
     "googleStt": { "code": "tr-TR" },
-    "googleTTS": { "code": "tr-TR" },
+    "googleTTS": { "code": "tr-TR", "voice":[    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": {"code": "tr-TR"}
   },
   {
@@ -2947,7 +6667,22 @@
     "ibmTranslate": "uk",
     "awsTranscribe": { "code": "uk-UA" },
     "googleStt": { "code": "uk-UA" },
-    "googleTTS": { "code": "uk-UA" },
+    "googleTTS": { "code": "uk-UA", "voice":[    {
+      "languageCodes": [
+        "uk-UA"
+      ],
+      "name": "uk-UA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "uk-UA"
+      ],
+      "name": "uk-UA-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
@@ -3031,7 +6766,86 @@
     "ibmTranslate": "vi",
     "awsTranscribe": { "code": "vi-VN" },
     "googleStt": { "code": "vi-VN" },
-    "googleTTS": { "code": "vi-VN" },
+    "googleTTS": { "code": "vi-VN", "voice":[ {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
     "awsPolly": false
   },
   {
