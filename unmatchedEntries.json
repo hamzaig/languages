@@ -1,0 +1,1280 @@
+[
+  {
+    "name": "Arabic (Gulf)",
+    "languageCodes": "ar",
+    "locale": "ar-AE",
+    "googleTranslate": "ar",
+    "microsoftTranslate": "ar",
+    "deeplTranslate": "AR",
+    "awsTranslate": "ar",
+    "ibmTranslate": "ar",
+    "awsTranscribe": {
+      "code": "ar-AE"
+    },
+    "googleStt": {
+      "code": "ar-AE"
+    },
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "ar-AE"
+    }
+  },
+  {
+    "name": "Arabic (Algeria)",
+    "languageCodes": "ar",
+    "locale": "ar-DZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-DZ"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Bahrain)",
+    "languageCodes": "ar",
+    "locale": "ar-BH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-BH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Egypt)",
+    "languageCodes": "ar",
+    "locale": "ar-EG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-EG"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Iraq)",
+    "languageCodes": "ar",
+    "locale": "ar-IQ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-IQ"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Israel)",
+    "languageCodes": "ar",
+    "locale": "ar-IL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-IL"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Jordan)",
+    "languageCodes": "ar",
+    "locale": "ar-JO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-JO"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Kuwait)",
+    "languageCodes": "ar",
+    "locale": "ar-KW",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-KW"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Lebanon)",
+    "languageCodes": "ar",
+    "locale": "ar-LB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-LB"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Mauritania)",
+    "languageCodes": "ar",
+    "locale": "ar-MR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-MR"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Morocco)",
+    "languageCodes": "ar",
+    "locale": "ar-MA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-MA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Oman)",
+    "languageCodes": "ar",
+    "locale": "ar-OM",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-OM"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Qatar)",
+    "languageCodes": "ar",
+    "locale": "ar-QA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-QA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (State of Palestine)",
+    "languageCodes": "ar",
+    "locale": "ar-PS",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-PS"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Syria)",
+    "languageCodes": "ar",
+    "locale": "ar-SY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-SY"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Tunisia)",
+    "languageCodes": "ar",
+    "locale": "ar-TN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-TN"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Yemen)",
+    "languageCodes": "ar",
+    "locale": "ar-YE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ar-YE"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Asturian",
+    "languageCodes": "ast",
+    "locale": "ast-ES",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ast-ES"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Bashkir",
+    "languageCodes": "ba",
+    "locale": "ba-RU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ba-RU"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Bengali ",
+    "languageCodes": "bn",
+    "locale": "bn-BD",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "bn-BD"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Central Kurdish (Iran)",
+    "languageCodes": "per",
+    "locale": "ckb-IR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ckb-IR"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Central Kurdish (Iraq)",
+    "languageCodes": "ku",
+    "locale": "ku-IQ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ckb-IQ"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Dutch (Belgium)",
+    "languageCodes": "nl",
+    "locale": "nl-BE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "nl-BE"
+    },
+    "googleTTS": {
+      "code": "nl-BE"
+    },
+    "awsPolly": {
+      "code": "nl-BE"
+    }
+  },
+  {
+    "name": "English (Australian)",
+    "languageCodes": "en",
+    "locale": "en-AU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-AU"
+    },
+    "googleStt": {
+      "code": "en-AU"
+    },
+    "googleTTS": {
+      "code": "en-AU"
+    },
+    "awsPolly": {
+      "code": "en-AU"
+    }
+  },
+  {
+    "name": "English (Canada)",
+    "languageCodes": "en",
+    "locale": "en-CA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-CA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Ghana)",
+    "languageCodes": "en",
+    "locale": "en-GH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-GH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Hong Kong)",
+    "languageCodes": "en",
+    "locale": "en-HK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-HK"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Kenya)",
+    "languageCodes": "en",
+    "locale": "en-KE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-KE"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Nigeria)",
+    "languageCodes": "en",
+    "locale": "en-NG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-NG"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Pakistan)",
+    "languageCodes": "en",
+    "locale": "en-PK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-PK"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Philippines)",
+    "languageCodes": "en",
+    "locale": "en-PH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-PH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Singapore)",
+    "languageCodes": "en",
+    "locale": "en-SG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-SG"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Tanzania)",
+    "languageCodes": "en",
+    "locale": "en-TZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "en-TZ"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (British)",
+    "languageCodes": "en",
+    "locale": "en-GB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-GB"
+    },
+    "googleStt": {
+      "code": "en-GB"
+    },
+    "googleTTS": {
+      "code": "en-GB"
+    },
+    "awsPolly": {
+      "code": "en-GB"
+    }
+  },
+  {
+    "name": "English (Indian)",
+    "languageCodes": "en",
+    "locale": "en-IN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-IN"
+    },
+    "googleStt": {
+      "code": "en-IN"
+    },
+    "googleTTS": {
+      "code": "en-IN"
+    },
+    "awsPolly": {
+      "code": "en-IN"
+    }
+  },
+  {
+    "name": "English (Irish)",
+    "languageCodes": "en",
+    "locale": "en-IE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-IE"
+    },
+    "googleStt": {
+      "code": "en-IE"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (New Zealand)",
+    "languageCodes": "en",
+    "locale": "en-NZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-NZ"
+    },
+    "googleStt": {
+      "code": "en-NZ"
+    },
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "en-NZ"
+    }
+  },
+  {
+    "name": "English (Scottish)",
+    "languageCodes": "en",
+    "locale": "en-AB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-AB"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (South African)",
+    "languageCodes": "en",
+    "locale": "en-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-ZA"
+    },
+    "googleStt": {
+      "code": "en-ZA"
+    },
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "en-ZA"
+    }
+  },
+  {
+    "name": "English (Welsh)",
+    "languageCodes": "en",
+    "locale": "en-WL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "en-WL"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "en-WL"
+    }
+  },
+  {
+    "name": "French (Canada)",
+    "languageCodes": "fr",
+    "locale": "fr-CA",
+    "googleTranslate": false,
+    "microsoftTranslate": "fr-ca",
+    "awsTranslate": "fr-ca",
+    "ibmTranslate": "fr",
+    "deeplTranslate": false,
+    "awsTranscribe": {
+      "code": "fr-CA"
+    },
+    "googleStt": {
+      "code": "fr-CA"
+    },
+    "googleTTS": {
+      "code": "fr-CA"
+    },
+    "awsPolly": {
+      "code": "fr-CA"
+    }
+  },
+  {
+    "name": "French (Belgium)",
+    "languageCodes": "fr",
+    "locale": "fr-BE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": "fr",
+    "deeplTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "fr-BE"
+    },
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "fr-BE"
+    }
+  },
+  {
+    "name": "French (Switzerland)",
+    "languageCodes": "fr",
+    "locale": "fr-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": "fr",
+    "deeplTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "fr-CH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "German (Swiss)",
+    "languageCodes": "de",
+    "locale": "de-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "de-CH"
+    },
+    "googleStt": {
+      "code": "de-CH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "German (Austria)",
+    "languageCodes": "de",
+    "locale": "de-AT",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "de-AT"
+    },
+    "googleTTS": false,
+    "awsPolly": {
+      "code": "de-AT"
+    }
+  },
+  {
+    "name": "Italian (Switzerland)",
+    "languageCodes": "it",
+    "locale": "it-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "it-CH"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Kabyle",
+    "languageCodes": "kab",
+    "locale": "kab-DZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "kab-DZ"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Meadow Mari",
+    "languageCodes": "mhr",
+    "locale": "mhr-RU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "mhr-RU"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Argentina)",
+    "languageCodes": "es",
+    "locale": "es-AR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-AR"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Bolivia)",
+    "languageCodes": "es",
+    "locale": "es-BO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-BO"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Chile)",
+    "languageCodes": "es",
+    "locale": "es-CL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-CL"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Colombia)",
+    "languageCodes": "es",
+    "locale": "es-CO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-CO"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Costa Rica)",
+    "languageCodes": "es",
+    "locale": "es-CR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-CR"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Dominican Republic)",
+    "languageCodes": "es",
+    "locale": "es-DO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-DO"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Ecuador)",
+    "languageCodes": "es",
+    "locale": "es-EC",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-EC"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (El Salvador)",
+    "languageCodes": "es",
+    "locale": "es-SV",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-SV"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Guatemala)",
+    "languageCodes": "es",
+    "locale": "es-GT",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-GT"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Honduras)",
+    "languageCodes": "es",
+    "locale": "es-HN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-HN"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Nicaragua)",
+    "languageCodes": "es",
+    "locale": "es-NI",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-NI"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Panama)",
+    "languageCodes": "es",
+    "locale": "es-PA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-PA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Paraguay)",
+    "languageCodes": "es",
+    "locale": "es-PY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-PY"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Peru)",
+    "languageCodes": "es",
+    "locale": "es-PE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-PE"
+    },
+    "googleTTS": false
+  },
+  {
+    "name": "Spanish (Puerto Rico)",
+    "languageCodes": "es",
+    "locale": "es-PR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-PR"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Uruguay)",
+    "languageCodes": "es",
+    "locale": "es-UY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-UY"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Venezuela)",
+    "languageCodes": "es",
+    "locale": "es-VE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "es-VE"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Kenyan)",
+    "languageCodes": "sw",
+    "locale": "sw-KE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "sw-KE"
+    },
+    "googleStt": {
+      "code": "sw-KE"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Burundi)",
+    "languageCodes": "sw",
+    "locale": "sw-BI",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "sw-BI"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Rwanda)",
+    "languageCodes": "sw",
+    "locale": "sw-RW",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "sw-RW"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Uganda)",
+    "languageCodes": "sw",
+    "locale": "sw-UG",
+    "googleTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "sw-UG"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swati (Latin, South Africa)",
+    "languageCodes": "ss",
+    "locale": "ss-ZA",
+    "googleTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ss-Latn-ZA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tamil (Malaysia)",
+    "languageCodes": "ta",
+    "locale": "ta-MY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ta-MY"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tamil (Singapore)",
+    "languageCodes": "ta",
+    "locale": "ta-SG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ta-SG"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tamil (Sri Lanka)",
+    "languageCodes": "ta",
+    "locale": "ta-LK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "ta-LK"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tswana (Latin, South Africa)",
+    "languageCodes": "tn",
+    "locale": "tn-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "tn-Latn-ZA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Urdu (India)",
+    "languageCodes": "ur",
+    "locale": "ur-IN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ur-IN"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Venda (South Africa)",
+    "languageCodes": "ve",
+    "locale": "ve-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": {
+      "code": "ve-ZA"
+    },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Wolof",
+    "languageCodes": "wo",
+    "locale": "wo-SN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": {
+      "code": "wo-SN"
+    },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  }
+]

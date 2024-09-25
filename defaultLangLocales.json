@@ -1,0 +1,604 @@
+[
+  {
+    "languageCodes": "ab",
+    "locale": "ab-GE"
+  },
+  {
+    "languageCodes": "af",
+    "locale": "af-ZA"
+  },
+  {
+    "languageCodes": "sq",
+    "locale": "sq-AL"
+  },
+  {
+    "languageCodes": "am",
+    "locale": "am-ET"
+  },
+  { "languageCodes": "tn", "locale": "tn-ZA" },
+  { "languageCodes": "ve", "locale": "ve-ZA" },
+  { "languageCodes": "wo", "locale": "wo-SN" },
+  {
+    "languageCodes": "ar",
+    "locale": "ar-SA"
+  },
+  {
+    "languageCodes": "hy",
+    "locale": "hy-AM"
+  },
+  {
+    "languageCodes": "as",
+    "locale": "as-IN"
+  },
+  {
+    "languageCodes": "ay",
+    "locale": "ay-BO"
+  },
+  {
+    "languageCodes": "az",
+    "locale": "az-AZ"
+  },
+  {
+    "languageCodes": "ast",
+    "locale": "ast-ES"
+  },
+  {
+    "languageCodes": "ba",
+    "locale": "ba-RU"
+  },
+  {
+    "languageCodes": "bm",
+    "locale": "bm-ML"
+  },
+  {
+    "languageCodes": "eu",
+    "locale": "eu-ES"
+  },
+  {
+    "languageCodes": "be",
+    "locale": "be-BY"
+  },
+  {
+    "languageCodes": "bn",
+    "locale": "bn-IN"
+  },
+  {
+    "languageCodes": "bho",
+    "locale": "bho-IN"
+  },
+  {
+    "languageCodes": "bs",
+    "locale": "bs-BA"
+  },
+  {
+    "languageCodes": "bg",
+    "locale": "bg-BG"
+  },
+  {
+    "languageCodes": "ca",
+    "locale": "ca-ES"
+  },
+  {
+    "languageCodes": "ceb",
+    "locale": "ceb-PH"
+  },
+  {
+    "languageCodes": "zh-CN",
+    "locale": "zh-CN"
+  },
+  {
+    "languageCodes": "zh-TW",
+    "locale": "zh-TW"
+  },
+  {
+    "languageCodes": "zh-HK",
+    "locale": "zh-HK"
+  },
+  {
+    "languageCodes": "co",
+    "locale": "co-FR"
+  },
+  {
+    "languageCodes": "hr",
+    "locale": "hr-HR"
+  },
+  {
+    "languageCodes": "cs",
+    "locale": "cs-CZ"
+  },
+  { "languageCodes": "per", "locale": "ckb-IR" },
+  {
+    "languageCodes": "da",
+    "locale": "da-DK"
+  },
+  {
+    "languageCodes": "fa",
+    "locale": "fa-AF"
+  },
+  {
+    "languageCodes": "dv",
+    "locale": "dv-MV"
+  },
+  {
+    "languageCodes": "doi",
+    "locale": "doi-IN"
+  },
+  {
+    "languageCodes": "nl",
+    "locale": "nl-NL"
+  },
+  {
+    "languageCodes": "en",
+    "locale": "en-US"
+  },
+  {
+    "languageCodes": "eo",
+    "locale": "eo"
+  },
+  {
+    "languageCodes": "et",
+    "locale": "et-EE"
+  },
+  {
+    "languageCodes": "ee",
+    "locale": "ee-TG"
+  },
+  {
+    "languageCodes": "fil",
+    "locale": "fil-PH"
+  },
+  {
+    "languageCodes": "fi",
+    "locale": "fi-FI"
+  },
+  {
+    "languageCodes": "fr",
+    "locale": "fr-FR"
+  },
+  {
+    "languageCodes": "fr",
+    "locale": "fr-FR"
+  },
+  {
+    "languageCodes": "fy",
+    "locale": "fy-NL"
+  },
+  {
+    "languageCodes": "gl",
+    "locale": "gl-ES"
+  },
+  {
+    "languageCodes": "ka",
+    "locale": "ka-GE"
+  },
+  {
+    "languageCodes": "de",
+    "locale": "de-DE"
+  },
+  {
+    "languageCodes": "el",
+    "locale": "el-GR"
+  },
+  {
+    "languageCodes": "gn",
+    "locale": "gn-PY"
+  },
+  {
+    "languageCodes": "gu",
+    "locale": "gu-IN"
+  },
+  {
+    "languageCodes": "ht",
+    "locale": "ht-HT"
+  },
+  {
+    "languageCodes": "ha",
+    "locale": "ha-NG"
+  },
+  {
+    "languageCodes": "haw",
+    "locale": "haw-US"
+  },
+  {
+    "languageCodes": "he",
+    "locale": "he-IL"
+  },
+  { "languageCodes": "mhr", "locale": "mhr-RU" },
+  {
+    "languageCodes": "hi",
+    "locale": "hi-IN"
+  },
+  { "languageCodes": "kab", "locale": "kab-DZ" },
+  {
+    "languageCodes": "hmn",
+    "locale": "hmn-CN"
+  },
+  {
+    "languageCodes": "hu",
+    "locale": "hu-HU"
+  },
+  {
+    "languageCodes": "is",
+    "locale": "is-IS"
+  },
+  {
+    "languageCodes": "ig",
+    "locale": "ig-NG"
+  },
+  {
+    "languageCodes": "ilo",
+    "locale": "ilo-PH"
+  },
+  {
+    "languageCodes": "id",
+    "locale": "id-ID"
+  },
+  {
+    "languageCodes": "ga",
+    "locale": "ga-IE"
+  },
+  {
+    "languageCodes": "it",
+    "locale": "it-IT"
+  },
+  {
+    "languageCodes": "ja",
+    "locale": "ja-JP"
+  },
+  {
+    "languageCodes": "jv",
+    "locale": "jv-ID"
+  },
+  {
+    "languageCodes": "kn",
+    "locale": "kn-IN"
+  },
+  {
+    "languageCodes": "kk",
+    "locale": "kk-KZ"
+  },
+  {
+    "languageCodes": "km",
+    "locale": "km-KH"
+  },
+  {
+    "languageCodes": "rw",
+    "locale": "rw-RW"
+  },
+  {
+    "languageCodes": "gom",
+    "locale": "gom-IN"
+  },
+  {
+    "languageCodes": "ko",
+    "locale": "ko-KR"
+  },
+  {
+    "languageCodes": "kri",
+    "locale": "kri-SL"
+  },
+  {
+    "languageCodes": "ku",
+    "locale": "ku-TR"
+  },
+  {
+    "languageCodes": "ckb",
+    "locale": "ckb-IQ"
+  },
+  {
+    "languageCodes": "ky",
+    "locale": "ky-KG"
+  },
+  {
+    "languageCodes": "lo",
+    "locale": "lo-LA"
+  },
+  {
+    "languageCodes": "la",
+    "locale": "la"
+  },
+  {
+    "languageCodes": "lv",
+    "locale": "lv-LV"
+  },
+  {
+    "languageCodes": "ln",
+    "locale": "ln-CD"
+  },
+  {
+    "languageCodes": "lt",
+    "locale": "lt-LT"
+  },
+  {
+    "languageCodes": "lg",
+    "locale": "lg-UG"
+  },
+  {
+    "languageCodes": "lb",
+    "locale": "lb-LU"
+  },
+  {
+    "languageCodes": "mk",
+    "locale": "mk-MK"
+  },
+  {
+    "languageCodes": "mai",
+    "locale": "mai-IN"
+  },
+  {
+    "languageCodes": "mg",
+    "locale": "mg-MG"
+  },
+  {
+    "languageCodes": "ms",
+    "locale": "ms-MY"
+  },
+  {
+    "languageCodes": "ml",
+    "locale": "ml-IN"
+  },
+  {
+    "languageCodes": "mt",
+    "locale": "mt-MT"
+  },
+  {
+    "languageCodes": "mi",
+    "locale": "mi-NZ"
+  },
+  {
+    "languageCodes": "mr",
+    "locale": "mr-IN"
+  },
+  {
+    "languageCodes": "mni-Mtei",
+    "locale": "mni-Mtei-IN"
+  },
+  {
+    "languageCodes": "lus",
+    "locale": "lus-IN"
+  },
+  {
+    "languageCodes": "mn",
+    "locale": "mn-MN"
+  },
+  {
+    "languageCodes": "my",
+    "locale": "my-MM"
+  },
+  {
+    "languageCodes": "uk",
+    "locale": "uk-UA"
+  },
+  {
+    "languageCodes": "ne",
+    "locale": "ne-NP"
+  },
+  {
+    "languageCodes": "cnr",
+    "locale": "cnr"
+  },
+  {
+    "languageCodes": "no",
+    "locale": "no-NO"
+  },
+  {
+    "languageCodes": "ny",
+    "locale": "ny-MW"
+  },
+  {
+    "languageCodes": "or",
+    "locale": "or-IN"
+  },
+  {
+    "languageCodes": "om",
+    "locale": "om-ET"
+  },
+  {
+    "languageCodes": "ps",
+    "locale": "ps-AF"
+  },
+  {
+    "languageCodes": "fa",
+    "locale": "fa-IR"
+  },
+  {
+    "languageCodes": "pl",
+    "locale": "pl-PL"
+  },
+  {
+    "languageCodes": "pt",
+    "locale": "pt-PT"
+  },
+  {
+    "languageCodes": "pa",
+    "locale": "pa-IN"
+  },
+  {
+    "languageCodes": "pa",
+    "locale": "pa-PK"
+  },
+  {
+    "languageCodes": "qu",
+    "locale": "qu-BO"
+  },
+  {
+    "languageCodes": "ro",
+    "locale": "ro-RO"
+  },
+  {
+    "languageCodes": "ru",
+    "locale": "ru-RU"
+  },
+  {
+    "languageCodes": "sm",
+    "locale": "sm-WS"
+  },
+  {
+    "languageCodes": "sa",
+    "locale": "sa-IN"
+  },
+  {
+    "languageCodes": "gd",
+    "locale": "gd-GB"
+  },
+  {
+    "languageCodes": "nso",
+    "locale": "nso-ZA"
+  },
+  {
+    "languageCodes": "sr",
+    "locale": "sr-RS"
+  },
+  {
+    "languageCodes": "st",
+    "locale": "st-ZA"
+  },
+  {
+    "languageCodes": "sn",
+    "locale": "sn-ZW"
+  },
+  {
+    "languageCodes": "sd",
+    "locale": "sd-PK"
+  },
+  {
+    "languageCodes": "si",
+    "locale": "si-LK"
+  },
+  {
+    "languageCodes": "sk",
+    "locale": "sk-SK"
+  },
+  {
+    "languageCodes": "sl",
+    "locale": "sl-SI"
+  },
+  {
+    "languageCodes": "so",
+    "locale": "so-SO"
+  },
+  {
+    "languageCodes": "es",
+    "locale": "es-ES"
+  },
+  {
+    "languageCodes": "es",
+    "locale": "es-ES"
+  },
+  {
+    "languageCodes": "su",
+    "locale": "su-ID"
+  },
+  {
+    "languageCodes": "sw",
+    "locale": "sw-TZ"
+  },
+  {
+    "languageCodes": "sv",
+    "locale": "sv-SE"
+  },
+  {
+    "languageCodes": "tl",
+    "locale": "tl-PH"
+  },
+  {
+    "languageCodes": "tg",
+    "locale": "tg-TJ"
+  },
+  {
+    "languageCodes": "ta",
+    "locale": "ta-IN"
+  },
+  {
+    "languageCodes": "tt",
+    "locale": "tt-RU"
+  },
+  {
+    "languageCodes": "te",
+    "locale": "te-IN"
+  },
+  {
+    "languageCodes": "th",
+    "locale": "th-TH"
+  },
+  {
+    "languageCodes": "ti",
+    "locale": "ti-ER"
+  },
+  {
+    "languageCodes": "ts",
+    "locale": "ts-ZA"
+  },
+  {
+    "languageCodes": "tr",
+    "locale": "tr-TR"
+  },
+  {
+    "languageCodes": "tk",
+    "locale": "tk-TM"
+  },
+  {
+    "languageCodes": "ak",
+    "locale": "ak-GH"
+  },
+  {
+    "languageCodes": "uk",
+    "locale": "uk-UA"
+  },
+  {
+    "languageCodes": "ur",
+    "locale": "ur-PK"
+  },
+  {
+    "languageCodes": "ug",
+    "locale": "ug-CN"
+  },
+  {
+    "languageCodes": "uz",
+    "locale": "uz-UZ"
+  },
+  {
+    "languageCodes": "vi",
+    "locale": "vi-VN"
+  },
+  {
+    "languageCodes": "cy",
+    "locale": "cy-GB"
+  },
+  {
+    "languageCodes": "xh",
+    "locale": "xh-ZA"
+  },
+  {
+    "languageCodes": "yi",
+    "locale": "yi"
+  },
+  {
+    "languageCodes": "yo",
+    "locale": "yo-NG"
+  },
+  {
+    "languageCodes": "zu",
+    "locale": "zu-ZA"
+  },
+  {
+    "languageCodes": "ny",
+    "locale": "ny-MW"
+  },
+  {
+    "languageCodes": "hmn",
+    "locale": "hmn-CN"
+  },
+  {
+    "languageCodes": "ku",
+    "locale": "ku-TR"
+  },
+  {
+    "languageCodes": "gd",
+    "locale": "gd-GB"
+  },
+  {
+    "languageCodes": "nso",
+    "locale": "nso-ZA"
+  }
+]
