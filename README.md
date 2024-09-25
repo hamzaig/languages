@@ -1,228 +1,105 @@
-# languages
-
-This package provides detailed information about various languages, including locale codes, simple language codes, and support across popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and others.
-
 # Language Details Package
 
-A comprehensive npm package that provides detailed information about various languages, including their locale codes, simple language codes, and whether they are supported by popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and more.
+A comprehensive npm package that provides detailed information about various languages, including locale codes, simple language codes, and whether they are supported by popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and more.
 
 ## Installation
 
-Install the package using npm:
+You can install the package using npm:
 
-````bash
 npm install language-details
 
-yarn add language-details
-
-const languageDetails = require('language-details');
-
-// Get details for Afrikaans
-const afrikaans = languageDetails.getLanguageDetails('af');
-console.log(afrikaans);
-
-/*
-  {
-    name: 'Afrikaans',
-    languageCodes: 'af',
-    locale: 'af-ZA',
-    googleTranslate: 'af',
-    microsoftTranslate: 'af',
-    deeplTranslate: false,
-    awsTranslate: 'af',
-    ibmTranslate: false
-  }
-*/
-
-
-Available Language Details
-Each language object includes the following fields:
-
-name: The full name of the language (e.g., "Afrikaans").
-languageCodes: The simple ISO language code (e.g., "af").
-locale: The locale code used for the language (e.g., "af-ZA").
-googleTranslate: The language code supported by Google Translate.
-microsoftTranslate: The language code supported by Microsoft Translator.
-deeplTranslate: A boolean indicating if the language is supported by DeepL.
-awsTranslate: The language code supported by AWS Translate.
-ibmTranslate: A boolean indicating if the language is supported by IBM Watson Language Translator.
-
-
-
-Here’s the README.md content you can copy and paste directly, properly formatted for Markdown:
-
-markdown
-Copy code
-# Language Details Package
-
-A comprehensive npm package that provides detailed information about various languages, including their locale codes, simple language codes, and whether they are supported by popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and more.
-
-## Installation
-
-Install the package using npm:
-
-```bash
-npm install language-details
 Or using yarn:
 
-bash
-Copy code
 yarn add language-details
-Usage
-The package can be used to retrieve information about languages, including their simple ISO code, locale code, and compatibility with different translation services.
 
-Example
-javascript
-Copy code
+## Usage
+
+The package provides multiple functions to check the validity of language codes, retrieve language names, and check translation availability.
+
+### Example Usage
+
 const languageDetails = require('language-details');
 
-// Get details for Afrikaans
-const afrikaans = languageDetails.getLanguageDetails('af');
-console.log(afrikaans);
+// Check if a language code is valid
+const isValid = languageDetails.isValid('af');
+console.log(isValid);
+// Output: Afrikaans (af) is a valid language code.
 
-/*
-  {
-    name: 'Afrikaans',
-    languageCodes: 'af',
-    locale: 'af-ZA',
-    googleTranslate: 'af',
-    microsoftTranslate: 'af',
-    deeplTranslate: false,
-    awsTranslate: 'af',
-    ibmTranslate: false
-  }
-*/
-Available Language Details
-Each language object includes the following fields:
+// Retrieve the name of a language by its code
+const languageName = languageDetails.getLanguageName('af');
+console.log(languageName);
+// Output: Afrikaans
 
-name: The full name of the language (e.g., "Afrikaans").
-languageCodes: The simple ISO language code (e.g., "af").
-locale: The locale code used for the language (e.g., "af-ZA").
-googleTranslate: The language code supported by Google Translate.
-microsoftTranslate: The language code supported by Microsoft Translator.
-deeplTranslate: A boolean indicating if the language is supported by DeepL.
-awsTranslate: The language code supported by AWS Translate.
-ibmTranslate: A boolean indicating if the language is supported by IBM Watson Language Translator.
-API
-getLanguageDetails(languageCode)
-Retrieve detailed information about a language by passing its ISO code (e.g., "af" for Afrikaans).
-
-Parameters
-languageCode: A string representing the ISO language code.
-
-https://gpttranslator.co
-
-
-
+// Check translation availability for a given language code
+const translationAvailability = languageDetails.checkTranslationAvailability('af');
+console.log(translationAvailability);
+/_ Output:
+[
 {
-  "name": "Language Name",
-  "languageCodes": "ISO Language Code",
-  "locale": "Locale Code",
-  "googleTranslate": "Google Translate Code",
-  "microsoftTranslate": "Microsoft Translate Code",
-  "deeplTranslate": "Boolean (true or false)",
-  "awsTranslate": "AWS Translate Code",
-  "ibmTranslate": "Boolean (true or false)"
+name: 'Afrikaans',
+locale: 'af-ZA',
+googleTranslate: true,
+microsoftTranslate: true,
+deeplTranslate: false,
+awsTranslate: true,
+ibmTranslate: false,
+awsTranscribe: false,
+googleStt: false,
+googleTTS: false,
+awsPolly: false
 }
+]
+_/
 
+## Available Functions
 
+- `isValid(langcode)`: Checks if the given language code is valid and returns the language name along with its code if valid.
+- `getLanguageName(langcode)`: Retrieves the name of the language based on the provided language code.
+- `checkTranslationAvailability(code)`: Checks the availability of the language across multiple translation and speech services like Google Translate, AWS Translate, etc.
 
-Here’s the README.md content you can copy and paste directly, properly formatted for Markdown:
+## API
 
-markdown
-Copy code
-# Language Details Package
+### isValid(languageCode)
 
-A comprehensive npm package that provides detailed information about various languages, including their locale codes, simple language codes, and whether they are supported by popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and more.
+- **Parameters**: `languageCode` (string) - The language code you want to validate.
+- **Returns**: A string indicating if the language code is valid and the corresponding language name.
 
-## Installation
+### getLanguageName(languageCode)
 
-Install the package using npm:
+- **Parameters**: `languageCode` (string) - The language code for which you want the language name.
+- **Returns**: The full name of the language if the code is valid, otherwise `null`.
 
-```bash
-npm install language-details
-Or using yarn:
+### checkTranslationAvailability(code)
 
-bash
-Copy code
-yarn add language-details
-Usage
-The package can be used to retrieve information about languages, including their simple ISO code, locale code, and compatibility with different translation services.
+- **Parameters**: `code` (string) - The language code for which you want to check translation availability.
+- **Returns**: An array of objects containing translation service availability information for the given language code.
 
-Example
-javascript
-Copy code
-const languageDetails = require('language-details');
+## Supported Translation Services
 
-// Get details for Afrikaans
-const afrikaans = languageDetails.getLanguageDetails('af');
-console.log(afrikaans);
+- **Google Translate**: Simple language code compatible with Google Translate.
+- **Microsoft Translator**: Language code supported by Microsoft’s translation services.
+- **DeepL**: Indicates if the language is supported by DeepL.
+- **AWS Translate**: Simple language code used by AWS Translate.
+- **IBM Watson**: Indicates if the language is supported by IBM Watson Language Translator.
+- **AWS Transcribe**: Code for AWS Transcribe speech recognition.
+- **Google STT**: Code for Google Speech-to-Text.
+- **Google TTS**: Code for Google Text-to-Speech.
+- **AWS Polly**: Code for AWS Polly Text-to-Speech.
 
-/*
-  {
-    name: 'Afrikaans',
-    languageCodes: 'af',
-    locale: 'af-ZA',
-    googleTranslate: 'af',
-    microsoftTranslate: 'af',
-    deeplTranslate: false,
-    awsTranslate: 'af',
-    ibmTranslate: false
-  }
-*/
-Available Language Details
-Each language object includes the following fields:
+## License
 
-name: The full name of the language (e.g., "Afrikaans").
-languageCodes: The simple ISO language code (e.g., "af").
-locale: The locale code used for the language (e.g., "af-ZA").
-googleTranslate: The language code supported by Google Translate.
-microsoftTranslate: The language code supported by Microsoft Translator.
-deeplTranslate: A boolean indicating if the language is supported by DeepL.
-awsTranslate: The language code supported by AWS Translate.
-ibmTranslate: A boolean indicating if the language is supported by IBM Watson Language Translator.
-API
-getLanguageDetails(languageCode)
-Retrieve detailed information about a language by passing its ISO code (e.g., "af" for Afrikaans).
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Parameters
-languageCode: A string representing the ISO language code.
-Returns
-An object with the following structure:
+## Contributing
 
-json
-Copy code
-{
-  "name": "Language Name",
-  "languageCodes": "ISO Language Code",
-  "locale": "Locale Code",
-  "googleTranslate": "Google Translate Code",
-  "microsoftTranslate": "Microsoft Translate Code",
-  "deeplTranslate": "Boolean (true or false)",
-  "awsTranslate": "AWS Translate Code",
-  "ibmTranslate": "Boolean (true or false)"
-}
-Supported Translation Services
-Google Translate: Simple language code compatible with Google Translate.
-Microsoft Translator: Language code supported by Microsoft’s translation services.
-DeepL: Indicates if the language is supported by DeepL.
-AWS Translate: Simple language code used by AWS Translate.
-IBM Watson: Indicates if the language is supported by IBM Watson Language Translator.
-Contributing
-If you’d like to contribute to the package, feel free to submit issues or pull requests on the GitHub repository.
+If you'd like to contribute to the package, feel free to submit issues or pull requests on the GitHub repository.
 
-Running Tests
+## Running Tests
+
 Make sure to write unit tests for your changes.
 
 npm test
 
-License
+## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
----
-
-You can directly copy and paste this content into your `README.md` without further formatting adjustments.
-
-
-````
