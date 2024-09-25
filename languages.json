@@ -1,5 +1,19 @@
 [
   {
+    "name": "Abkhaz",
+    "languageCodes": "ab",
+    "locale": "ab-GE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ab-GE" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
     "name": "Afrikaans",
     "languageCodes": "af",
     "locale": "af-ZA",
@@ -7,7 +21,18 @@
     "microsoftTranslate": "af",
     "deeplTranslate": false,
     "awsTranslate": "af",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "af-ZA" },
+    "googleStt": { "code": "af-ZA" },
+    "googleTTS": { "code": "af-ZA", "voice": [{
+      "languageCodes": [
+        "af-ZA"
+      ],
+      "name": "af-ZA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Albanian",
@@ -17,7 +42,11 @@
     "microsoftTranslate": "sq",
     "deeplTranslate": false,
     "awsTranslate": "sq",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "sq-AL" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Amharic",
@@ -27,7 +56,11 @@
     "microsoftTranslate": "am",
     "deeplTranslate": false,
     "awsTranslate": "am",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "am-ET"},
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Arabic",
@@ -37,7 +70,325 @@
     "microsoftTranslate": "ar",
     "deeplTranslate": "AR",
     "awsTranslate": "ar",
-    "ibmTranslate": "ar"
+    "ibmTranslate": "ar",
+    "awsTranscribe": { "code": "ar-SA" },
+    "googleStt": { "code": "ar-SA" },
+    "googleTTS": { "code": "ar-XA", "voice": [ 
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-B",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Standard-D",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-B",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "ar-XA"
+        ],
+        "name": "ar-XA-Wavenet-D",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      }   
+    ]},
+    "awsPolly": { "code": "arb" }
+  },
+  {
+    "name": "Arabic (Gulf)",
+    "languageCodes": "ar",
+    "locale": "ar-AE",
+    "googleTranslate": "ar",
+    "microsoftTranslate": "ar",
+    "deeplTranslate": "AR",
+    "awsTranslate": "ar",
+    "ibmTranslate": "ar",
+    "awsTranscribe": { "code": "ar-AE" },
+    "googleStt": { "code": "ar-AE" },
+    "googleTTS": false,
+    "awsPolly": { "code": "ar-AE" }
+  },
+  {
+    "name": "Arabic (Algeria)",
+    "languageCodes": "ar",
+    "locale": "ar-DZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-DZ" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Bahrain)",
+    "languageCodes": "ar",
+    "locale": "ar-BH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-BH" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Egypt)",
+    "languageCodes": "ar",
+    "locale": "ar-EG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-EG" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Iraq)",
+    "languageCodes": "ar",
+    "locale": "ar-IQ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-IQ" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Israel)",
+    "languageCodes": "ar",
+    "locale": "ar-IL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-IL" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Arabic (Jordan)",
+    "languageCodes": "ar",
+    "locale": "ar-JO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-JO" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Kuwait)",
+    "languageCodes": "ar",
+    "locale": "ar-KW",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-KW" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Lebanon)",
+    "languageCodes": "ar",
+    "locale": "ar-LB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-LB" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Mauritania)",
+    "languageCodes": "ar",
+    "locale": "ar-MR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-MR" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Morocco)",
+    "languageCodes": "ar",
+    "locale": "ar-MA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-MA" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Oman)",
+    "languageCodes": "ar",
+    "locale": "ar-OM",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-OM" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Qatar)",
+    "languageCodes": "ar",
+    "locale": "ar-QA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-QA" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (State of Palestine)",
+    "languageCodes": "ar",
+    "locale": "ar-PS",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-PS" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Syria)",
+    "languageCodes": "ar",
+    "locale": "ar-SY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-SY" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Tunisia)",
+    "languageCodes": "ar",
+    "locale": "ar-TN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-TN" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Arabic (Yemen)",
+    "languageCodes": "ar",
+    "locale": "ar-YE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ar-YE" },
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Armenian",
@@ -47,7 +398,27 @@
     "microsoftTranslate": "hy",
     "deeplTranslate": false,
     "awsTranslate": "hy",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "hy-AM" },
+    "googleStt": { "code": "hy-AM" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Asturian",
+    "languageCodes": "ast",
+    "locale": "ast-ES",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ast-ES" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Assamese",
@@ -57,7 +428,12 @@
     "microsoftTranslate": "as",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Aymara",
@@ -67,7 +443,12 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Azerbaijani",
@@ -77,7 +458,12 @@
     "microsoftTranslate": "az",
     "deeplTranslate": false,
     "awsTranslate": "az",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "az-AZ" },
+    "googleStt": { "code": "az-AZ" },
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Bambara",
@@ -87,7 +473,27 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Bashkir",
+    "languageCodes": "ba",
+    "locale": "ba-RU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ba-RU" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Basque",
@@ -97,7 +503,12 @@
     "microsoftTranslate": "eu",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": "eu"
+    "ibmTranslate": "eu",
+    "awsTranscribe": { "code": "eu-ES" },
+    "googleStt": { "code": "eu-ES" },
+    "googleTTS": { "code": "eu-ES"  },
+    "awsPolly": false
+
   },
   {
     "name": "Belarusian",
@@ -107,17 +518,105 @@
     "microsoftTranslate": "be",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "be-BY" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
-    "name": "Bengali",
+    "name": "Bengali ",
+    "languageCodes": "bn",
+    "locale": "bn-BD",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "bn-BD" },
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Bengali (India)",
     "languageCodes": "bn",
     "locale": "bn-IN",
     "googleTranslate": "bn",
     "microsoftTranslate": "bn",
     "deeplTranslate": false,
     "awsTranslate": "bn",
-    "ibmTranslate": "bn"
+    "ibmTranslate": "bn",
+    "awsTranscribe": { "code": "bn-IN" },
+    "googleStt": { "code": "bn-IN" },
+    "googleTTS": { "code": "bn-IN", "voice": [ {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "bn-IN"
+      ],
+      "name": "bn-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
+
   },
   {
     "name": "Bhojpuri",
@@ -127,7 +626,12 @@
     "microsoftTranslate": "bho",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Bosnian",
@@ -137,7 +641,12 @@
     "microsoftTranslate": "bs",
     "deeplTranslate": false,
     "awsTranslate": "bs",
-    "ibmTranslate": "bs"
+    "ibmTranslate": "bs",
+    "awsTranscribe": { "code": "bs-BA" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Bulgarian",
@@ -147,7 +656,34 @@
     "microsoftTranslate": "bg",
     "deeplTranslate": "BG",
     "awsTranslate": "bg",
-    "ibmTranslate": "bg"
+    "ibmTranslate": "bg",
+    "awsTranscribe": { "code": "bg-BG" },
+    "googleStt": { "code": "bg-BG" },
+    "googleTTS": { "code": "bg-BG", "voice":  {
+      "languageCodes": [
+        "bg-BG"
+      ],
+      "name": "bg-BG-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    } },
+    "awsPolly": false
+
+  },
+  {
+    "name": "Burmese (Myanmar)",
+    "languageCodes": "my",
+    "locale": "my-MM",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "my-MM" },
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Catalan",
@@ -157,7 +693,48 @@
     "microsoftTranslate": "ca",
     "deeplTranslate": false,
     "awsTranslate": "ca",
-    "ibmTranslate": "ca"
+    "ibmTranslate": "ca",
+    "awsTranscribe": { "code": "ca-ES" },
+    "googleStt": { "code": "ca-ES" },
+    "googleTTS": { "code": "ca-ES", "voice": [ {
+      "languageCodes": [
+        "ca-ES"
+      ],
+      "name": "ca-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
+    "awsPolly": {"code": "ca-ES"}
+  },
+  {
+    "name": "Central Kurdish (Iran)",
+    "languageCodes": "per",
+    "locale": "ckb-IR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ckb-IR" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
+  },
+  {
+    "name": "Central Kurdish (Iraq)",
+    "languageCodes": "ku",
+    "locale": "ku-IQ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ckb-IQ" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Cebuano",
@@ -167,7 +744,12 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+
   },
   {
     "name": "Chinese (Simplified)",
@@ -177,7 +759,75 @@
     "microsoftTranslate": "zh-CN",
     "deeplTranslate": "ZH",
     "awsTranslate": "zh",
-    "ibmTranslate": "zh"
+    "ibmTranslate": "zh",
+    "awsTranscribe": { "code": "zh-CN" },
+    "googleStt": { "code": "cmn-Hans-CN" },
+    "googleTTS": { "code": "cmn-CN", "voice":[ {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-CN"
+      ],
+      "name": "cmn-CN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"cmn-CN"}
+
   },
   {
     "name": "Chinese (Traditional)",
@@ -187,17 +837,105 @@
     "microsoftTranslate": "zh-TW",
     "deeplTranslate": "ZH",
     "awsTranslate": "zh-TW",
-    "ibmTranslate": "zh-TW"
+    "ibmTranslate": "zh-TW",
+    "awsTranscribe": { "code": "zh-TW" },
+    "googleStt": { "code": "cmn-Hant-TW" },
+    "googleTTS": { "code": "cmn-TW", "voice":[ {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cmn-TW"
+      ],
+      "name": "cmn-TW-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }
+      
+    ]},
+    "awsPolly": false
   },
   {
-    "name": "Hong Kong (Traditional)",
+    "name": "Chinese  (Hong Kong Traditional)",
     "languageCodes": "zh-HK",
     "locale": "zh-HK",
     "googleTranslate": "zh-TW",
     "microsoftTranslate": "zh-TW",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "yue-Hant-HK" },
+    "googleStt": { "code": "yue-HK" },
+    "googleTTS": { "code": "yue-HK", "voice":[{
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "yue-HK"
+      ],
+      "name": "yue-HK-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"yue-CN"}
   },
   {
     "name": "Corsican",
@@ -207,7 +945,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Croatian",
@@ -217,7 +959,11 @@
     "microsoftTranslate": "hr",
     "deeplTranslate": false,
     "awsTranslate": "hr",
-    "ibmTranslate": "hr"
+    "ibmTranslate": "hr",
+    "awsTranscribe": { "code": "hr-HR" },
+    "googleStt": { "code": "hr-HR" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Czech",
@@ -227,7 +973,26 @@
     "microsoftTranslate": "cs",
     "deeplTranslate": "CS",
     "awsTranslate": "cs",
-    "ibmTranslate": "cs"
+    "ibmTranslate": "cs",
+    "awsTranscribe": { "code": "cs-CZ" },
+    "googleStt": { "code": "cs-CZ" },
+    "googleTTS": { "code": "cs-CZ" , "voice":[{
+      "languageCodes": [
+        "cs-CZ"
+      ],
+      "name": "cs-CZ-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "cs-CZ"
+      ],
+      "name": "cs-CZ-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
+    "awsPolly": false
   },
   {
     "name": "Danish",
@@ -237,7 +1002,82 @@
     "microsoftTranslate": "da",
     "deeplTranslate": "DA",
     "awsTranslate": "da",
-    "ibmTranslate": "da"
+    "ibmTranslate": "da",
+    "awsTranscribe": { "code": "da-DK" },
+    "googleStt": { "code": "da-DK" },
+    "googleTTS": { "code": "da-DK", "voice":[{
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "da-DK"
+      ],
+      "name": "da-DK-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"da-DK"}
   },
   {
     "name": "Dari",
@@ -247,7 +1087,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": "fa-AF",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Dhivehi",
@@ -257,7 +1101,10 @@
     "microsoftTranslate": "dv",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "awsPolly": false
   },
   {
     "name": "Dogri",
@@ -267,7 +1114,10 @@
     "microsoftTranslate": "doi",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "awsPolly": false
   },
   {
     "name": "Dutch",
@@ -277,7 +1127,135 @@
     "microsoftTranslate": "nl",
     "deeplTranslate": "NL",
     "awsTranslate": "nl",
-    "ibmTranslate": "nl"
+    "ibmTranslate": "nl",
+    "awsTranscribe": { "code": "nl-NL" },
+    "googleStt": { "code": "nl-NL" },
+    "googleTTS": { "code": "nl-NL", "voice":[ {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-NL"
+      ],
+      "name": "nl-NL-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"nl-NL"}
+  },
+  {
+    "name": "Dutch (Belgium)",
+    "languageCodes": "nl",
+    "locale": "nl-BE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "nl-BE" },
+    "googleTTS": { "code": "nl-BE", "voice":[ {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nl-BE"
+      ],
+      "name": "nl-BE-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"nl-BE"}
   },
   {
     "name": "English",
@@ -287,7 +1265,1005 @@
     "microsoftTranslate": "en",
     "deeplTranslate": "EN",
     "awsTranslate": "en",
-    "ibmTranslate": "en"
+    "ibmTranslate": "en",
+    "awsTranscribe": { "code": "en-US" },
+    "googleStt": { "code": "en-US" },
+    "googleTTS": { "code": "en-US", "voice":[    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Casual-K",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Journey-O",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Neural2-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-K",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-L",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-News-N",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Standard-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Studio-O",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Studio-Q",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-I",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-US"
+      ],
+      "name": "en-US-Wavenet-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"en-US"}
+  },
+  {
+    "name": "English (Australian)",
+    "languageCodes": "en",
+    "locale": "en-AU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-AU" },
+    "googleStt": { "code": "en-AU" },
+    "googleTTS": { "code": "en-AU", "voice":[    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-News-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-AU"
+      ],
+      "name": "en-AU-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"en-AU"}
+  },
+  {
+    "name": "English (Canada)",
+    "languageCodes": "en",
+    "locale": "en-CA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-CA" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Ghana)",
+    "languageCodes": "en",
+    "locale": "en-GH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-GH" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Hong Kong)",
+    "languageCodes": "en",
+    "locale": "en-HK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-HK" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Kenya)",
+    "languageCodes": "en",
+    "locale": "en-KE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-KE" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Nigeria)",
+    "languageCodes": "en",
+    "locale": "en-NG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-NG" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Pakistan)",
+    "languageCodes": "en",
+    "locale": "en-PK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-PK" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Philippines)",
+    "languageCodes": "en",
+    "locale": "en-PH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-PH" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Singapore)",
+    "languageCodes": "en",
+    "locale": "en-SG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-SG" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (Tanzania)",
+    "languageCodes": "en",
+    "locale": "en-TZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "en-TZ" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (British)",
+    "languageCodes": "en",
+    "locale": "en-GB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-GB" },
+    "googleStt": { "code": "en-GB" },
+    "googleTTS": { "code": "en-GB", "voice":[ {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-H",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-I",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-J",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-K",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-L",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-News-M",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-GB"
+      ],
+      "name": "en-GB-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"en-GB"}
+  },
+  {
+    "name": "English (Indian)",
+    "languageCodes": "en",
+    "locale": "en-IN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-IN" },
+    "googleStt": { "code": "en-IN" },
+    "googleTTS": { "code": "en-IN", "voice":[{
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Standard-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "en-IN"
+      ],
+      "name": "en-IN-Wavenet-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"en-IN"}
+  },
+  {
+    "name": "English (Irish)",
+    "languageCodes": "en",
+    "locale": "en-IE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-IE" },
+    "googleStt": { "code": "en-IE" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (New Zealand)",
+    "languageCodes": "en",
+    "locale": "en-NZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-NZ" },
+    "googleStt": { "code": "en-NZ" },
+    "googleTTS": false,
+    "awsPolly": {"code":"en-NZ"}
+  },
+  {
+    "name": "English (Scottish)",
+    "languageCodes": "en",
+    "locale": "en-AB",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-AB" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "English (South African)",
+    "languageCodes": "en",
+    "locale": "en-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-ZA" },
+    "googleStt": { "code": "en-ZA" },
+    "googleTTS": false,
+    "awsPolly": {"code":"en-ZA"}
+  },
+  {
+    "name": "English (Welsh)",
+    "languageCodes": "en",
+    "locale": "en-WL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "en-WL" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": {"code":"en-WL"}
   },
   {
     "name": "Esperanto",
@@ -297,7 +2273,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Estonian",
@@ -307,7 +2287,11 @@
     "microsoftTranslate": "et",
     "deeplTranslate": "ET",
     "awsTranslate": "et",
-    "ibmTranslate": "et"
+    "ibmTranslate": "et",
+    "awsTranscribe": { "code": "et-ET" },
+    "googleStt": { "code": "et-EE" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Ewe",
@@ -317,8 +2301,13 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
+
   {
     "name": "Filipino (Tagalog)",
     "languageCodes": "fil",
@@ -327,7 +2316,92 @@
     "microsoftTranslate": "fil",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "fil-PH" },
+    "googleTTS": { "code": "fil-PH", "voice":[
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-B",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Standard-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-B",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-C",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-PH-Wavenet-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-ph-Neural2-A",
+        "ssmlGender": "FEMALE",
+        "naturalSampleRateHertz": 24000
+      },
+      {
+        "languageCodes": [
+          "fil-PH"
+        ],
+        "name": "fil-ph-Neural2-D",
+        "ssmlGender": "MALE",
+        "naturalSampleRateHertz": 24000
+      }
+    ] },
+    "awsPolly": false
   },
   {
     "name": "Finnish",
@@ -337,7 +2411,26 @@
     "microsoftTranslate": "fi",
     "deeplTranslate": "FI",
     "awsTranslate": "fi",
-    "ibmTranslate": "fi"
+    "ibmTranslate": "fi",
+    "awsTranscribe": { "code": "fi-FI" },
+    "googleStt": { "code": "fi-FI" },
+    "googleTTS": { "code": "fi-FI", "voice":[    {
+      "languageCodes": [
+        "fi-FI"
+      ],
+      "name": "fi-FI-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fi-FI"
+      ],
+      "name": "fi-FI-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"fi-FI"}
   },
   {
     "name": "French",
@@ -347,17 +2440,323 @@
     "microsoftTranslate": "fr",
     "deeplTranslate": "FR",
     "awsTranslate": "fr",
-    "ibmTranslate": "fr"
+    "ibmTranslate": "fr",
+    "awsTranscribe": { "code": "fr-FR" },
+    "googleStt": { "code": "fr-FR" },
+    "googleTTS": { "code": "fr-FR", "voice":[{
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Standard-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Studio-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Studio-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-FR"
+      ],
+      "name": "fr-FR-Wavenet-G",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"fr-FR"}
   },
   {
     "name": "French (Canada)",
     "languageCodes": "fr",
-    "locale": "fr-FR",
+    "locale": "fr-CA",
     "googleTranslate": false,
     "microsoftTranslate": "fr-ca",
     "awsTranslate": "fr-ca",
     "ibmTranslate": "fr",
-    "deeplTranslate": false
+    "deeplTranslate": false,
+    "awsTranscribe": { "code": "fr-CA" },
+    "googleStt": { "code": "fr-CA" },
+    "googleTTS": { "code": "fr-CA","voice":[{
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "fr-CA"
+      ],
+      "name": "fr-CA-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"fr-CA"}
+  },
+  {
+    "name": "French (Belgium)",
+    "languageCodes": "fr",
+    "locale": "fr-BE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": "fr",
+    "deeplTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "fr-BE" },
+    "googleTTS": false,
+    "awsPolly": {"code":"fr-BE"}
+  },
+  {
+    "name": "French (Switzerland)",
+    "languageCodes": "fr",
+    "locale": "fr-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": "fr",
+    "deeplTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "fr-CH" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Frisian",
@@ -367,7 +2766,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Galician",
@@ -377,7 +2780,18 @@
     "microsoftTranslate": "gl",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "gl-ES" },
+    "googleStt": { "code": "gl-ES" },
+    "googleTTS": {"code": "gl-ES", "voice":[    {
+      "languageCodes": [
+        "gl-ES"
+      ],
+      "name": "gl-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }]},
+    "awsPolly": false
   },
   {
     "name": "Georgian",
@@ -387,7 +2801,11 @@
     "microsoftTranslate": "ka",
     "deeplTranslate": false,
     "awsTranslate": "ka",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ka-GE" },
+    "googleStt": { "code": "ka-GE" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "German",
@@ -397,7 +2815,230 @@
     "microsoftTranslate": "de",
     "deeplTranslate": "DE",
     "awsTranslate": "de",
-    "ibmTranslate": "de"
+    "ibmTranslate": "de",
+    "awsTranscribe": { "code": "de-DE" },
+    "googleStt": { "code": "de-DE" },
+    "googleTTS": { "code": "de-DE", "voice":[{
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Neural2-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Standard-H",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "de-DE"
+      ],
+      "name": "de-DE-Wavenet-H",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"de-DE"}
+  },
+  {
+    "name": "German (Swiss)",
+    "languageCodes": "de",
+    "locale": "de-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "de-CH" },
+    "googleStt": { "code": "de-CH" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "German (Austria)",
+    "languageCodes": "de",
+    "locale": "de-AT",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "de-AT" },
+    "googleTTS": false,
+    "awsPolly": {"code":"de-AT"}
   },
   {
     "name": "Greek",
@@ -407,7 +3048,26 @@
     "microsoftTranslate": "el",
     "deeplTranslate": "EL",
     "awsTranslate": "el",
-    "ibmTranslate": "el"
+    "ibmTranslate": "el",
+    "awsTranscribe": { "code": "el-GR" },
+    "googleStt": { "code": "el-GR" },
+    "googleTTS": { "code": "el-GR","voice":[{
+      "languageCodes": [
+        "el-GR"
+      ],
+      "name": "el-GR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "el-GR"
+      ],
+      "name": "el-GR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Guarani",
@@ -417,7 +3077,11 @@
     "microsoftTranslate": "gn",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Gujarati",
@@ -427,8 +3091,76 @@
     "microsoftTranslate": "gu",
     "deeplTranslate": false,
     "awsTranslate": "gu",
-    "ibmTranslate": "gu"
+    "ibmTranslate": "gu",
+    "awsTranscribe": { "code": "gu-IN" },
+    "googleStt": { "code": "gu-IN" },
+    "googleTTS": { "code": "gu-IN", "voice":[    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "gu-IN"
+      ],
+      "name": "gu-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
+
   {
     "name": "Haitian Creole",
     "languageCodes": "ht",
@@ -437,7 +3169,11 @@
     "microsoftTranslate": "ht",
     "deeplTranslate": false,
     "awsTranslate": "ht",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ht-HT" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Hausa",
@@ -447,7 +3183,11 @@
     "microsoftTranslate": "ha",
     "deeplTranslate": false,
     "awsTranslate": "ha",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ha-NG" },
+    "googleStt": { "code": "ha-NG" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Hawaiian",
@@ -457,7 +3197,11 @@
     "microsoftTranslate": "haw",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "haw-US" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Hebrew",
@@ -467,7 +3211,74 @@
     "microsoftTranslate": "he",
     "deeplTranslate": false,
     "awsTranslate": "he",
-    "ibmTranslate": "he"
+    "ibmTranslate": "he",
+    "awsTranscribe": { "code": "he-IL" },
+    "googleStt": { "code": "he-IL" },
+    "googleTTS": { "code": "he-IL", "voice":[ {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "he-IL"
+      ],
+      "name": "he-IL-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Hindi",
@@ -477,7 +3288,138 @@
     "microsoftTranslate": "hi",
     "deeplTranslate": false,
     "awsTranslate": "hi",
-    "ibmTranslate": "hi"
+    "ibmTranslate": "hi",
+    "awsTranscribe": { "code": "hi-IN" },
+    "googleStt": { "code": "hi-IN" },
+    "googleTTS": { "code": "hi-IN", "voice":[    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Standard-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hi-IN"
+      ],
+      "name": "hi-IN-Wavenet-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"hi-IN"}
   },
   {
     "name": "Hmong",
@@ -487,7 +3429,11 @@
     "microsoftTranslate": "hmn",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "hmn-CN" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Hungarian",
@@ -497,7 +3443,26 @@
     "microsoftTranslate": "hu",
     "deeplTranslate": "HU",
     "awsTranslate": "hu",
-    "ibmTranslate": "hu"
+    "ibmTranslate": "hu",
+    "awsTranscribe": { "code": "hu-HU" },
+    "googleStt": { "code": "hu-HU" },
+    "googleTTS": { "code": "hu-HU","voice":[    {
+      "languageCodes": [
+        "hu-HU"
+      ],
+      "name": "hu-HU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "hu-HU"
+      ],
+      "name": "hu-HU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Icelandic",
@@ -507,7 +3472,18 @@
     "microsoftTranslate": "is",
     "deeplTranslate": false,
     "awsTranslate": "is",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "is-IS" },
+    "googleStt": { "code": "is-IS" },
+    "googleTTS": { "code": "is-IS", "voice":[ {
+      "languageCodes": [
+        "is-IS"
+      ],
+      "name": "is-IS-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"is-IS"}
   },
   {
     "name": "Igbo",
@@ -517,7 +3493,11 @@
     "microsoftTranslate": "ig",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ig-NG" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Ilocano",
@@ -527,7 +3507,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ilo-PH" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Indonesian",
@@ -537,7 +3521,74 @@
     "microsoftTranslate": "id",
     "deeplTranslate": "ID",
     "awsTranslate": "id",
-    "ibmTranslate": "id"
+    "ibmTranslate": "id",
+    "awsTranscribe": { "code": "id-ID" },
+    "googleStt": { "code": "id-ID" },
+    "googleTTS": { "code": "id-ID", "voice":[{
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "id-ID"
+      ],
+      "name": "id-ID-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Irish",
@@ -547,7 +3598,11 @@
     "microsoftTranslate": "ga",
     "deeplTranslate": false,
     "awsTranslate": "ga",
-    "ibmTranslate": "ga"
+    "ibmTranslate": "ga",
+    "awsTranscribe": false,
+    "googleStt": { "code": "ga-IE" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Italian",
@@ -557,7 +3612,104 @@
     "microsoftTranslate": "it",
     "deeplTranslate": "IT",
     "awsTranslate": "it",
-    "ibmTranslate": "it"
+    "ibmTranslate": "it",
+    "awsTranscribe": { "code": "it-IT" },
+    "googleStt": { "code": "it-IT" },
+    "googleTTS": { "code": "it-IT", "voice":[{
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "it-IT"
+      ],
+      "name": "it-IT-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"it-IT"}
+  },
+  {
+    "name": "Italian (Switzerland)",
+    "languageCodes": "it",
+    "locale": "it-CH",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "it-CH" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Japanese",
@@ -567,7 +3719,98 @@
     "microsoftTranslate": "ja",
     "deeplTranslate": "JA",
     "awsTranslate": "ja",
-    "ibmTranslate": "ja"
+    "ibmTranslate": "ja",
+    "awsTranscribe": { "code": "ja-JP" },
+    "googleStt": { "code": "ja-JP" },
+    "googleTTS": { "code": "ja-JP", "voice":[ {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ja-JP"
+      ],
+      "name": "ja-JP-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"ja-JP"}
   },
   {
     "name": "Javanese",
@@ -577,7 +3820,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "jv-ID" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kannada",
@@ -587,7 +3834,88 @@
     "microsoftTranslate": "kn",
     "deeplTranslate": false,
     "awsTranslate": "kn",
-    "ibmTranslate": "kn"
+    "ibmTranslate": "kn",
+    "awsTranscribe": { "code": "kn-IN" },
+    "googleStt": { "code": "kn-IN" },
+    "googleTTS": { "code": "kn-IN", "voice":[{
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "kn-IN"
+      ],
+      "name": "kn-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
+  },
+  {
+    "name": "Kabyle",
+    "languageCodes": "kab",
+    "locale": "kab-DZ",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "kab-DZ" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kazakh",
@@ -597,7 +3925,11 @@
     "microsoftTranslate": "kk",
     "deeplTranslate": false,
     "awsTranslate": "kk",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "kk-KZ" },
+    "googleStt": { "code": "kk-KZ" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Khmer",
@@ -607,7 +3939,11 @@
     "microsoftTranslate": "km",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "km-KH" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kinyarwanda",
@@ -617,7 +3953,11 @@
     "microsoftTranslate": "rw",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "rw-RW" },
+    "googleStt": { "code": "rw-RW" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Konkani",
@@ -627,7 +3967,11 @@
     "microsoftTranslate": "gom",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Korean",
@@ -637,7 +3981,98 @@
     "microsoftTranslate": "ko",
     "deeplTranslate": "KO",
     "awsTranslate": "ko",
-    "ibmTranslate": "ko"
+    "ibmTranslate": "ko",
+    "awsTranscribe": { "code": "ko-KR" },
+    "googleStt": { "code": "ko-KR" },
+    "googleTTS": { "code": "ko-KR", "voice":[    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ko-KR"
+      ],
+      "name": "ko-KR-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"ko-KR"}
   },
   {
     "name": "Krio",
@@ -647,7 +4082,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kurdish",
@@ -657,7 +4096,11 @@
     "microsoftTranslate": "ku",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kurdish (Sorani)",
@@ -667,7 +4110,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kyrgyz",
@@ -677,7 +4124,11 @@
     "microsoftTranslate": "ky",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ky-KG" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Lao",
@@ -687,7 +4138,11 @@
     "microsoftTranslate": "lo",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "lo-LA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Latin",
@@ -697,7 +4152,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Latvian",
@@ -707,7 +4166,18 @@
     "microsoftTranslate": "lv",
     "deeplTranslate": "LV",
     "awsTranslate": "lv",
-    "ibmTranslate": "lv"
+    "ibmTranslate": "lv",
+    "awsTranscribe": { "code": "lv-LV" },
+    "googleStt": { "code": "lv-LV" },
+    "googleTTS": { "code": "lv-LV","voice":[{
+      "languageCodes": [
+        "lv-LV"
+      ],
+      "name": "lv-LV-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Lingala",
@@ -717,7 +4187,11 @@
     "microsoftTranslate": "ln",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Lithuanian",
@@ -727,7 +4201,18 @@
     "microsoftTranslate": "lt",
     "deeplTranslate": "LT",
     "awsTranslate": "lt",
-    "ibmTranslate": "lt"
+    "ibmTranslate": "lt",
+    "awsTranscribe": { "code": "lt-LT" },
+    "googleStt": { "code": "lt-LT" },
+    "googleTTS": { "code": "lt-LT", "voice":[{
+      "languageCodes": [
+        "lt-LT"
+      ],
+      "name": "lt-LT-Standard-A",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Luganda",
@@ -737,7 +4222,11 @@
     "microsoftTranslate": "lg",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "lg-IN" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Luxembourgish",
@@ -747,7 +4236,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Macedonian",
@@ -757,7 +4250,11 @@
     "microsoftTranslate": "mk",
     "deeplTranslate": false,
     "awsTranslate": "mk",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "mk-MK" },
+    "googleStt": { "code": "mk-MK" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Maithili",
@@ -767,7 +4264,11 @@
     "microsoftTranslate": "mai",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Malagasy",
@@ -777,7 +4278,11 @@
     "microsoftTranslate": "mg",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Malay",
@@ -787,7 +4292,74 @@
     "microsoftTranslate": "ms",
     "deeplTranslate": false,
     "awsTranslate": "ms",
-    "ibmTranslate": "ms"
+    "ibmTranslate": "ms",
+    "awsTranscribe": { "code": "ms-MY" },
+    "googleStt": { "code": "ms-MY" },
+    "googleTTS": { "code": "ms-MY", "voice":[    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ms-MY"
+      ],
+      "name": "ms-MY-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Malayalam",
@@ -797,8 +4369,124 @@
     "microsoftTranslate": "ml",
     "deeplTranslate": false,
     "awsTranslate": "ml",
-    "ibmTranslate": "ml"
+    "ibmTranslate": "ml",
+    "awsTranscribe": { "code": "ml-IN" },
+    "googleStt": { "code": "ml-IN" },
+    "googleTTS": { "code": "ml-IN", "voice":[{
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ml-IN"
+      ],
+      "name": "ml-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "mr-IN"
+      ],
+      "name": "mr-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
+
   {
     "name": "Maltese",
     "languageCodes": "mt",
@@ -807,7 +4495,11 @@
     "microsoftTranslate": "mt",
     "deeplTranslate": false,
     "awsTranslate": "mt",
-    "ibmTranslate": "mt"
+    "ibmTranslate": "mt",
+    "awsTranscribe": { "code": "mt-MT" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Maori",
@@ -817,7 +4509,11 @@
     "microsoftTranslate": "mi",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Marathi",
@@ -827,7 +4523,11 @@
     "microsoftTranslate": "mr",
     "deeplTranslate": false,
     "awsTranslate": "mr",
-    "ibmTranslate": "mr"
+    "ibmTranslate": "mr",
+    "awsTranscribe": { "code": "mr-IN" },
+    "googleStt": { "code": "mr-IN" },
+    "googleTTS": { "code": "mr-IN" },
+    "awsPolly": false
   },
   {
     "name": "Meiteilon (Manipuri)",
@@ -837,7 +4537,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Mizo",
@@ -847,7 +4551,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Mongolian",
@@ -857,7 +4565,11 @@
     "microsoftTranslate": "mn",
     "deeplTranslate": false,
     "awsTranslate": "mn",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "mn-MN" },
+    "googleStt": { "code": "mn-MN" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Myanmar (Burmese)",
@@ -867,7 +4579,11 @@
     "microsoftTranslate": "my",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Myanmar (Ukrainian)",
@@ -877,7 +4593,25 @@
     "microsoftTranslate": false,
     "deeplTranslate": "UK",
     "awsTranslate": false,
-    "ibmTranslate": "uk"
+    "ibmTranslate": "uk",
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Meadow Mari",
+    "languageCodes": "mhr",
+    "locale": "mhr-RU",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "mhr-RU" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Nepali",
@@ -887,7 +4621,11 @@
     "microsoftTranslate": "ne",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": "ne"
+    "ibmTranslate": "ne",
+    "awsTranscribe": false,
+    "googleStt": { "code": "ne-NP" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Montenegrin",
@@ -897,7 +4635,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": "cnr"
+    "ibmTranslate": "cnr",
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Norwegian",
@@ -907,7 +4649,90 @@
     "microsoftTranslate": "no",
     "deeplTranslate": false,
     "awsTranslate": "no",
-    "ibmTranslate": "no"
+    "ibmTranslate": "no",
+    "awsTranscribe": { "code": "no-NO" },
+    "googleStt": { "code": "no-NO" },
+    "googleTTS": { "code": "no-NO","voice":[    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "nb-NO"
+      ],
+      "name": "nb-NO-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": { "code": "nb-NO" }
   },
   {
     "name": "Nyanja (Chichewa)",
@@ -917,7 +4742,11 @@
     "microsoftTranslate": "ny",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Odia (Oriya)",
@@ -927,7 +4756,11 @@
     "microsoftTranslate": "or",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "or-IN" },
+    "googleStt": { "code": "or-IN" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Oromo",
@@ -937,7 +4770,11 @@
     "microsoftTranslate": "om",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "om-ET" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Pashto",
@@ -947,7 +4784,11 @@
     "microsoftTranslate": "ps",
     "deeplTranslate": false,
     "awsTranslate": "ps",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ps-AF" },
+    "googleStt": { "code": "ps-AF" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Farsi (Persian)",
@@ -957,7 +4798,11 @@
     "microsoftTranslate": "fa",
     "deeplTranslate": false,
     "awsTranslate": "fa",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "fa-IR" },
+    "googleStt": { "code": "fa-IR" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Polish",
@@ -967,17 +4812,284 @@
     "microsoftTranslate": "pl",
     "deeplTranslate": "PL",
     "awsTranslate": "pl",
-    "ibmTranslate": "pl"
+    "ibmTranslate": "pl",
+    "awsTranscribe": { "code": "pl-PL" },
+    "googleStt": { "code": "pl-PL" },
+    "googleTTS": { "code": "pl-PL", "voice":[{
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pl-PL"
+      ],
+      "name": "pl-PL-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"pl-PL"}
   },
   {
-    "name": "Portuguese (Portugal, Brazil)",
+    "name": "Portuguese (Brazil)",
+    "languageCodes": "pt",
+    "locale": "pt-BR",
+    "googleTranslate": "pt",
+    "microsoftTranslate": "pt",
+    "deeplTranslate": "PT",
+    "awsTranslate": "pt",
+    "ibmTranslate": "pt",
+    "awsTranscribe": { "code": "pt-BR" },
+    "googleStt": { "code": "pt-BR" },
+    "googleTTS": { "code": "pt-BR","voice":[    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-BR"
+      ],
+      "name": "pt-BR-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }]},
+    "awsPolly": {"code":"pt-BR"}
+  },
+  {
+    "name": "Portuguese (Portugal)",
     "languageCodes": "pt",
     "locale": "pt-PT",
     "googleTranslate": "pt",
     "microsoftTranslate": "pt",
     "deeplTranslate": "PT",
     "awsTranslate": "pt",
-    "ibmTranslate": "pt"
+    "ibmTranslate": "pt",
+    "awsTranscribe": { "code": "pt-PT" },
+    "googleStt": { "code": "pt-PT" },
+    "googleTTS": { "code": "pt-PT", "voice":[{
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pt-PT"
+      ],
+      "name": "pt-PT-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"pt-PT"}
   },
   {
     "name": "Punjabi",
@@ -987,7 +5099,74 @@
     "microsoftTranslate": "pa",
     "deeplTranslate": false,
     "awsTranslate": "pa",
-    "ibmTranslate": "pa"
+    "ibmTranslate": "pa",
+    "awsTranscribe": { "code": "pa-IN" },
+    "googleStt": { "code": "pa-IN" },
+    "googleTTS": { "code": "pa-IN","voice":[ {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "pa-IN"
+      ],
+      "name": "pa-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Punjabi (Pakistani)",
@@ -997,7 +5176,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": "pa-PK"
+    "ibmTranslate": "pa-PK",
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Quechua",
@@ -1007,7 +5190,11 @@
     "microsoftTranslate": "qu",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Romanian",
@@ -1017,7 +5204,26 @@
     "microsoftTranslate": "ro",
     "deeplTranslate": "RO",
     "awsTranslate": "ro",
-    "ibmTranslate": "ro"
+    "ibmTranslate": "ro",
+    "awsTranscribe": { "code": "ro-RO" },
+    "googleStt": { "code": "ro-RO" },
+    "googleTTS": { "code": "ro-RO", "voice":[ {
+      "languageCodes": [
+        "ro-RO"
+      ],
+      "name": "ro-RO-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ro-RO"
+      ],
+      "name": "ro-RO-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"ro-RO"}
   },
   {
     "name": "Russian",
@@ -1027,7 +5233,90 @@
     "microsoftTranslate": "ru",
     "deeplTranslate": "RU",
     "awsTranslate": "ru",
-    "ibmTranslate": "ru"
+    "ibmTranslate": "ru",
+    "awsTranscribe": { "code": "ru-RU" },
+    "googleStt": { "code": "ru-RU" },
+    "googleTTS": { "code": "ru-RU", "voice":[{
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Standard-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ru-RU"
+      ],
+      "name": "ru-RU-Wavenet-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"ru-RU"}
   },
   {
     "name": "Samoan",
@@ -1037,7 +5326,11 @@
     "microsoftTranslate": "sm",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Sanskrit",
@@ -1047,7 +5340,11 @@
     "microsoftTranslate": "sa",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Scots Gaelic",
@@ -1057,7 +5354,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Sepedi",
@@ -1067,7 +5368,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Serbian",
@@ -1077,7 +5382,18 @@
     "microsoftTranslate": "sr",
     "deeplTranslate": false,
     "awsTranslate": "sr",
-    "ibmTranslate": "sr"
+    "ibmTranslate": "sr",
+    "awsTranscribe": { "code": "sr-RS" },
+    "googleStt": { "code": "sr-RS" },
+    "googleTTS": { "code": "sr-RS", "voice":[    {
+      "languageCodes": [
+        "sr-RS"
+      ],
+      "name": "sr-RS-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Sesotho",
@@ -1087,7 +5403,11 @@
     "microsoftTranslate": "st",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Shona",
@@ -1097,7 +5417,11 @@
     "microsoftTranslate": "sn",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Sindhi",
@@ -1107,7 +5431,11 @@
     "microsoftTranslate": "sd",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Sinhala (Sinhalese)",
@@ -1117,7 +5445,11 @@
     "microsoftTranslate": "si",
     "deeplTranslate": false,
     "awsTranslate": "si",
-    "ibmTranslate": "si"
+    "ibmTranslate": "si",
+    "awsTranscribe": { "code": "si-LK" },
+    "googleStt": { "code": "si-LK" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Slovak",
@@ -1127,7 +5459,26 @@
     "microsoftTranslate": "sk",
     "deeplTranslate": "SK",
     "awsTranslate": "sk",
-    "ibmTranslate": "sk"
+    "ibmTranslate": "sk",
+    "awsTranscribe": { "code": "sk-SK" },
+    "googleStt": { "code": "sk-SK" },
+    "googleTTS": { "code": "sk-SK", "voice":[    {
+      "languageCodes": [
+        "sk-SK"
+      ],
+      "name": "sk-SK-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sk-SK"
+      ],
+      "name": "sk-SK-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Slovenian",
@@ -1137,7 +5488,25 @@
     "microsoftTranslate": "sl",
     "deeplTranslate": "SL",
     "awsTranslate": "sl",
-    "ibmTranslate": "sl"
+    "ibmTranslate": "sl",
+    "awsTranscribe": { "code": "sl-SI" },
+    "googleStt": { "code": "sl-SI" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Southern Sotho (South Africa)",
+    "languageCodes": "st",
+    "locale": "st-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "st-ZA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Somali",
@@ -1147,7 +5516,11 @@
     "microsoftTranslate": "so",
     "deeplTranslate": false,
     "awsTranslate": "so",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "so-SO" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Spanish",
@@ -1157,17 +5530,562 @@
     "microsoftTranslate": "es",
     "deeplTranslate": "ES",
     "awsTranslate": "es",
-    "ibmTranslate": "es"
+    "ibmTranslate": "es",
+    "awsTranscribe": { "code": "es-ES" },
+    "googleStt": { "code": "es-ES" },
+    "googleTTS": { "code": "es-ES","voice":[    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-E",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Neural2-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Standard-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Studio-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Studio-F",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-ES"
+      ],
+      "name": "es-ES-Wavenet-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": { "code": "es-ES" }
   },
   {
     "name": "Spanish (Mexico)",
+    "languageCodes": "es",
+    "locale": "es-MX",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": "es-MX",
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "es-MX" },
+    "googleStt": { "code": "es-MX" },
+    "googleTTS": false,
+    "awsPolly": { "code": "es-MX" }
+  },
+  {
+    "name": "Spanish (Argentina)",
+    "languageCodes": "es",
+    "locale": "es-AR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-AR" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Bolivia)",
+    "languageCodes": "es",
+    "locale": "es-BO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-BO" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Chile)",
+    "languageCodes": "es",
+    "locale": "es-CL",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-CL" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Colombia)",
+    "languageCodes": "es",
+    "locale": "es-CO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-CO" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Costa Rica)",
+    "languageCodes": "es",
+    "locale": "es-CR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-CR" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Dominican Republic)",
+    "languageCodes": "es",
+    "locale": "es-DO",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-DO" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Ecuador)",
+    "languageCodes": "es",
+    "locale": "es-EC",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-EC" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (El Salvador)",
+    "languageCodes": "es",
+    "locale": "es-SV",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-SV" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Guatemala)",
+    "languageCodes": "es",
+    "locale": "es-GT",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-GT" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Honduras)",
+    "languageCodes": "es",
+    "locale": "es-HN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-HN" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Nicaragua)",
+    "languageCodes": "es",
+    "locale": "es-NI",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-NI" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Panama)",
+    "languageCodes": "es",
+    "locale": "es-PA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-PA" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Paraguay)",
+    "languageCodes": "es",
+    "locale": "es-PY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-PY" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Peru)",
+    "languageCodes": "es",
+    "locale": "es-PE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-PE" },
+    "googleTTS": false
+  },
+  {
+    "name": "Spanish (Puerto Rico)",
+    "languageCodes": "es",
+    "locale": "es-PR",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-PR" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Uruguay)",
+    "languageCodes": "es",
+    "locale": "es-UY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-UY" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (Venezuela)",
+    "languageCodes": "es",
+    "locale": "es-VE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "es-VE" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Spanish (US)",
     "languageCodes": "es",
     "locale": "es-ES",
     "googleTranslate": false,
     "microsoftTranslate": false,
     "deeplTranslate": false,
-    "awsTranslate": "es-MX",
-    "ibmTranslate": false
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "es-US" },
+    "googleStt": { "code": "es-US" },
+    "googleTTS": { "code": "es-US", "voice":[{
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Neural2-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-F",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-News-G",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Polyglot-1",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Standard-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Studio-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "es-US"
+      ],
+      "name": "es-US-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "eu-ES"
+      ],
+      "name": "eu-ES-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"es-US"}
   },
   {
     "name": "Sundanese",
@@ -1177,7 +6095,11 @@
     "microsoftTranslate": "su",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "su-ID" },
+    "googleStt": { "code": "su-ID" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Swahili",
@@ -1187,7 +6109,79 @@
     "microsoftTranslate": "sw",
     "deeplTranslate": false,
     "awsTranslate": "sw",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "sw-TZ" },
+    "googleStt": { "code": "sw-TZ" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Kenyan)",
+    "languageCodes": "sw",
+    "locale": "sw-KE",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "sw-KE" },
+    "googleStt": { "code": "sw-KE" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Burundi)",
+    "languageCodes": "sw",
+    "locale": "sw-BI",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "sw-BI" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Rwanda)",
+    "languageCodes": "sw",
+    "locale": "sw-RW",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "sw-RW" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swahili (Uganda)",
+    "languageCodes": "sw",
+    "locale": "sw-UG",
+    "googleTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "sw-UG" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Swati (Latin, South Africa)",
+    "languageCodes": "ss",
+    "locale": "ss-ZA",
+    "googleTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ss-Latn-ZA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Swedish",
@@ -1197,7 +6191,90 @@
     "microsoftTranslate": "sv",
     "deeplTranslate": "SV",
     "awsTranslate": "sv",
-    "ibmTranslate": "sv"
+    "ibmTranslate": "sv",
+    "awsTranscribe": { "code": "sv-SE" },
+    "googleStt": { "code": "sv-SE" },
+    "googleTTS": { "code": "sv-SE", "voice":[    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-B",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-C",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "sv-SE"
+      ],
+      "name": "sv-SE-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code":"sv-SE"}
   },
   {
     "name": "Tagalog (Filipino)",
@@ -1207,17 +6284,10 @@
     "microsoftTranslate": "tl",
     "deeplTranslate": false,
     "awsTranslate": "tl",
-    "ibmTranslate": false
-  },
-  {
-    "name": "Tajik",
-    "languageCodes": "tg",
-    "locale": "tg-TJ",
-    "googleTranslate": "tg",
-    "microsoftTranslate": "tg",
-    "deeplTranslate": false,
-    "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "tl-PH" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Tamil",
@@ -1227,8 +6297,129 @@
     "microsoftTranslate": "ta",
     "deeplTranslate": false,
     "awsTranslate": "ta",
-    "ibmTranslate": "ta"
+    "ibmTranslate": "ta",
+    "awsTranscribe": { "code": "ta-IN" },
+    "googleStt": { "code": "ta-IN" },
+    "googleTTS": { "code": "ta-IN", "voice":[{
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "ta-IN"
+      ],
+      "name": "ta-IN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
+  {
+    "name": "Tamil (Malaysia)",
+    "languageCodes": "ta",
+    "locale": "ta-MY",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ta-MY" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tamil (Singapore)",
+    "languageCodes": "ta",
+    "locale": "ta-SG",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ta-SG" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tamil (Sri Lanka)",
+    "languageCodes": "ta",
+    "locale": "ta-LK",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ta-LK" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tajik",
+    "languageCodes": "tg",
+    "locale": "tg-TJ",
+    "googleTranslate": "tg",
+    "microsoftTranslate": "tg",
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+
   {
     "name": "Tatar",
     "languageCodes": "tt",
@@ -1237,7 +6428,11 @@
     "microsoftTranslate": "tt",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "tt-RU" },
+    "googleStt": { "code": "tt-RU" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Telugu",
@@ -1247,7 +6442,26 @@
     "microsoftTranslate": "te",
     "deeplTranslate": false,
     "awsTranslate": "te",
-    "ibmTranslate": "te"
+    "ibmTranslate": "te",
+    "awsTranscribe": { "code": "te-IN" },
+    "googleStt": { "code": "te-IN" },
+    "googleTTS": { "code": "te-IN", "voice":[ {
+      "languageCodes": [
+        "te-IN"
+      ],
+      "name": "te-IN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "te-IN"
+      ],
+      "name": "te-IN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Thai",
@@ -1257,8 +6471,28 @@
     "microsoftTranslate": "th",
     "deeplTranslate": false,
     "awsTranslate": "th",
-    "ibmTranslate": "th"
+    "ibmTranslate": "th",
+    "awsTranscribe": { "code": "th-TH" },
+    "googleStt": { "code": "th-TH" },
+    "googleTTS": { "code": "th-TH","voice":[ {
+      "languageCodes": [
+        "th-TH"
+      ],
+      "name": "th-TH-Neural2-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "th-TH"
+      ],
+      "name": "th-TH-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
+
   {
     "name": "Tigrinya",
     "languageCodes": "ti",
@@ -1267,7 +6501,11 @@
     "microsoftTranslate": "ti",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Tsonga",
@@ -1277,7 +6515,25 @@
     "microsoftTranslate": "ts",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Tswana (Latin, South Africa)",
+    "languageCodes": "tn",
+    "locale": "tn-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "tn-Latn-ZA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Turkish",
@@ -1287,7 +6543,90 @@
     "microsoftTranslate": "tr",
     "deeplTranslate": "TR",
     "awsTranslate": "tr",
-    "ibmTranslate": "tr"
+    "ibmTranslate": "tr",
+    "awsTranscribe": { "code": "tr-TR" },
+    "googleStt": { "code": "tr-TR" },
+    "googleTTS": { "code": "tr-TR", "voice":[    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Standard-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-D",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "tr-TR"
+      ],
+      "name": "tr-TR-Wavenet-E",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": {"code": "tr-TR"}
   },
   {
     "name": "Turkmen",
@@ -1297,7 +6636,11 @@
     "microsoftTranslate": "tk",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Twi (Akan)",
@@ -1307,7 +6650,11 @@
     "microsoftTranslate": "ak",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Ukrainian",
@@ -1317,7 +6664,26 @@
     "microsoftTranslate": "uk",
     "deeplTranslate": "UK",
     "awsTranslate": "uk",
-    "ibmTranslate": "uk"
+    "ibmTranslate": "uk",
+    "awsTranscribe": { "code": "uk-UA" },
+    "googleStt": { "code": "uk-UA" },
+    "googleTTS": { "code": "uk-UA", "voice":[    {
+      "languageCodes": [
+        "uk-UA"
+      ],
+      "name": "uk-UA-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "uk-UA"
+      ],
+      "name": "uk-UA-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Urdu",
@@ -1327,7 +6693,25 @@
     "microsoftTranslate": "ur",
     "deeplTranslate": false,
     "awsTranslate": "ur",
-    "ibmTranslate": "ur"
+    "ibmTranslate": "ur",
+    "awsTranscribe": false,
+    "googleStt": { "code": "ur-PK" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Urdu (India)",
+    "languageCodes": "ur",
+    "locale": "ur-IN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ur-IN" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Uyghur",
@@ -1337,7 +6721,11 @@
     "microsoftTranslate": "ug",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "ug-CN" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Uzbek",
@@ -1347,7 +6735,25 @@
     "microsoftTranslate": "uz",
     "deeplTranslate": false,
     "awsTranslate": "uz",
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "uz-UZ" },
+    "googleStt": { "code": "uz-UZ" },
+    "googleTTS": false,
+    "awsPolly": false
+  },
+  {
+    "name": "Venda (South Africa)",
+    "languageCodes": "ve",
+    "locale": "ve-ZA",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "ve-ZA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Vietnamese",
@@ -1357,7 +6763,90 @@
     "microsoftTranslate": "vi",
     "deeplTranslate": false,
     "awsTranslate": "vi",
-    "ibmTranslate": "vi"
+    "ibmTranslate": "vi",
+    "awsTranscribe": { "code": "vi-VN" },
+    "googleStt": { "code": "vi-VN" },
+    "googleTTS": { "code": "vi-VN", "voice":[ {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Neural2-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Neural2-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Standard-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-A",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-B",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-C",
+      "ssmlGender": "FEMALE",
+      "naturalSampleRateHertz": 24000
+    },
+    {
+      "languageCodes": [
+        "vi-VN"
+      ],
+      "name": "vi-VN-Wavenet-D",
+      "ssmlGender": "MALE",
+      "naturalSampleRateHertz": 24000
+    }] },
+    "awsPolly": false
   },
   {
     "name": "Welsh",
@@ -1367,7 +6856,25 @@
     "microsoftTranslate": "cy",
     "deeplTranslate": false,
     "awsTranslate": "cy",
-    "ibmTranslate": "cy"
+    "ibmTranslate": "cy",
+    "awsTranscribe": { "code": "cy-GB" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": {"code": "cy-GB"}
+  },
+  {
+    "name": "Wolof",
+    "languageCodes": "wo",
+    "locale": "wo-SN",
+    "googleTranslate": false,
+    "microsoftTranslate": false,
+    "deeplTranslate": false,
+    "awsTranslate": false,
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "wo-SN" },
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Xhosa",
@@ -1377,7 +6884,11 @@
     "microsoftTranslate": "xh",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": { "code": "xh-ZA" },
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Yiddish",
@@ -1387,7 +6898,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Yoruba",
@@ -1397,7 +6912,11 @@
     "microsoftTranslate": "yo",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Zulu",
@@ -1407,7 +6926,10 @@
     "microsoftTranslate": "zu",
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": { "code": "zu-ZA" },
+    "googleStt": { "code": "zu-ZA" },
+    "googleTTS": false,"awsPolly": false
   },
   {
     "name": "Chichewa (Nyanja)",
@@ -1417,17 +6939,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
-  },
-  {
-    "name": "Hmong",
-    "languageCodes": "hmn",
-    "locale": "hmn-CN",
-    "googleTranslate": false,
-    "microsoftTranslate": false,
-    "deeplTranslate": false,
-    "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Kurdish (Kurmanji)",
@@ -1437,7 +6953,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Scottish Gaelic (Scots Gaelic)",
@@ -1447,7 +6967,11 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   },
   {
     "name": "Sotho (Sepedi)",
@@ -1457,6 +6981,10 @@
     "microsoftTranslate": false,
     "deeplTranslate": false,
     "awsTranslate": false,
-    "ibmTranslate": false
+    "ibmTranslate": false,
+    "awsTranscribe": false,
+    "googleStt": false,
+    "googleTTS": false,
+    "awsPolly": false
   }
 ]
