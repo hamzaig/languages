@@ -110,6 +110,9 @@ Retrieve detailed information about a language by passing its ISO code (e.g., "a
 Parameters
 languageCode: A string representing the ISO language code.
 
+https://gpttranslator.co
+
+
 
 {
   "name": "Language Name",
