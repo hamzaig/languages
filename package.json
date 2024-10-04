@@ -18,8 +18,5 @@
   "bugs": {
     "url": "https://github.com/hamzaig/languages/issues"
   },
-  "homepage": "https://github.com/hamzaig/languages#readme",
-  "dependencies": {
-    "languages-details": "^1.0.1"
-  }
+  "homepage": "https://github.com/hamzaig/languages#readme"
 }

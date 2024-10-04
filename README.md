@@ -1,105 +1,147 @@
+
 # Language Details Package
 
-A comprehensive npm package that provides detailed information about various languages, including locale codes, simple language codes, and whether they are supported by popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and more.
+**Language Details** is a comprehensive npm package that offers detailed information about various languages. It includes locale codes, simple language codes, and indicates whether these languages are supported by popular translation and speech services like Google Translate, AWS Translate, Microsoft Translator, and more.
 
 ## Installation
 
-You can install the package using npm:
+Install the package using your preferred package manager:
 
+```bash
+# Using npm
 npm install language-details
 
-Or using yarn:
-
+# Using yarn
 yarn add language-details
+```
+
+## Features
+
+This package provides multiple functions for:
+
+- Validating language codes.
+- Retrieving language names from codes.
+- Checking translation availability across popular services.
+- Retrieving the writing style of languages (LTR or RTL).
 
 ## Usage
 
-The package provides multiple functions to check the validity of language codes, retrieve language names, and check translation availability.
+Below are examples showcasing the main functionalities of the package:
 
-### Example Usage
+### Example 1: Check if a Language Code is Valid
 
+```javascript
 const languageDetails = require('language-details');
 
-// Check if a language code is valid
+// Validate language code
 const isValid = languageDetails.isValid('af');
-console.log(isValid);
-// Output: Afrikaans (af) is a valid language code.
+console.log(isValid);  // Output: Afrikaans (af) is a valid language code.
+```
 
-// Retrieve the name of a language by its code
+### Example 2: Retrieve Language Name by Code
+
+```javascript
 const languageName = languageDetails.getLanguageName('af');
-console.log(languageName);
-// Output: Afrikaans
+console.log(languageName);  // Output: Afrikaans
+```
 
-// Check translation availability for a given language code
+### Example 3: Check Translation and Speech Service Availability
+
+```javascript
 const translationAvailability = languageDetails.checkTranslationAvailability('af');
 console.log(translationAvailability);
-/_ Output:
+
+// Output:
 [
-{
-name: 'Afrikaans',
-locale: 'af-ZA',
-googleTranslate: true,
-microsoftTranslate: true,
-deeplTranslate: false,
-awsTranslate: true,
-ibmTranslate: false,
-awsTranscribe: false,
-googleStt: false,
-googleTTS: false,
-awsPolly: false
-}
+  {
+    name: 'Afrikaans',
+    locale: 'af-ZA',
+    googleTranslate: true,
+    microsoftTranslate: true,
+    deeplTranslate: false,
+    awsTranslate: true,
+    ibmTranslate: false,
+    awsTranscribe: false,
+    googleStt: false,
+    googleTTS: false,
+    awsPolly: false
+  }
 ]
-_/
+```
+
+### Example 4: Retrieve Writing Style of a Language
+
+```javascript
+const writingStyle = languageDetails.getLanguageWritingStyle('ar');
+console.log(writingStyle);  // Output: RTL
+```
 
 ## Available Functions
 
-- `isValid(langcode)`: Checks if the given language code is valid and returns the language name along with its code if valid.
-- `getLanguageName(langcode)`: Retrieves the name of the language based on the provided language code.
-- `checkTranslationAvailability(code)`: Checks the availability of the language across multiple translation and speech services like Google Translate, AWS Translate, etc.
+The package provides several utility functions to work with language data:
 
-## API
+- `isValid(langCode)`: Validates the provided language code and returns its name if valid.
+- `getLanguageName(langCode)`: Retrieves the language name for a given language code.
+- `checkTranslationAvailability(langCode)`: Checks if the language is supported by various translation and speech services.
+- `getLanguageWritingStyle(langCode)`: Retrieves the writing style of a specified language (either LTR or RTL). If the language code is invalid, it returns null.
 
-### isValid(languageCode)
+## API Reference
 
-- **Parameters**: `languageCode` (string) - The language code you want to validate.
-- **Returns**: A string indicating if the language code is valid and the corresponding language name.
+### `isValid(languageCode)`
 
-### getLanguageName(languageCode)
+- **Description**: Verifies if the provided language code is valid.
+- **Parameters**: 
+  - `languageCode` (string): The language code to validate.
+- **Returns**: A string indicating whether the code is valid, along with the language name.
 
-- **Parameters**: `languageCode` (string) - The language code for which you want the language name.
-- **Returns**: The full name of the language if the code is valid, otherwise `null`.
+### `getLanguageName(languageCode)`
 
-### checkTranslationAvailability(code)
+- **Description**: Fetches the full language name corresponding to a language code.
+- **Parameters**:
+  - `languageCode` (string): The language code.
+- **Returns**: The language name if the code is valid; otherwise, `null`.
 
-- **Parameters**: `code` (string) - The language code for which you want to check translation availability.
-- **Returns**: An array of objects containing translation service availability information for the given language code.
+### `checkTranslationAvailability(languageCode)`
 
-## Supported Translation Services
+- **Description**: Checks the availability of translation and speech services for a given language.
+- **Parameters**:
+  - `languageCode` (string): The language code to check.
+- **Returns**: An array of objects that details the support across various translation services such as Google Translate, AWS Translate, Microsoft Translator, and others.
 
-- **Google Translate**: Simple language code compatible with Google Translate.
-- **Microsoft Translator**: Language code supported by Microsoft’s translation services.
-- **DeepL**: Indicates if the language is supported by DeepL.
-- **AWS Translate**: Simple language code used by AWS Translate.
-- **IBM Watson**: Indicates if the language is supported by IBM Watson Language Translator.
-- **AWS Transcribe**: Code for AWS Transcribe speech recognition.
-- **Google STT**: Code for Google Speech-to-Text.
-- **Google TTS**: Code for Google Text-to-Speech.
-- **AWS Polly**: Code for AWS Polly Text-to-Speech.
+### `getLanguageWritingStyle(languageCode)`
 
-## License
+- **Description**: Retrieves the writing style of a specified language, either LTR (Left-to-Right) or RTL (Right-to-Left).
+- **Parameters**:
+  - `languageCode` (string): The language code to validate and retrieve the writing style.
+- **Returns**: Returns the writing style of the language if found; otherwise, returns `null`.
+- **Throws**: An error if the provided `languageCode` is invalid (null or not a string).
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Supported Services
 
-## Contributing
+The package provides support information for the following translation and speech services:
 
-If you'd like to contribute to the package, feel free to submit issues or pull requests on the GitHub repository.
+- **Google Translate**: Checks if the language code is supported by Google Translate.
+- **Microsoft Translator**: Indicates support from Microsoft Translator.
+- **DeepL**: Identifies whether the language is supported by DeepL.
+- **AWS Translate**: Checks AWS Translate compatibility.
+- **IBM Watson**: Verifies if IBM Watson Language Translator supports the language.
+- **AWS Transcribe**: Checks if the language code is valid for AWS Transcribe speech recognition.
+- **Google Speech-to-Text (STT)**: Verifies compatibility with Google Speech-to-Text.
+- **Google Text-to-Speech (TTS)**: Checks support for Google Text-to-Speech.
+- **AWS Polly**: Indicates AWS Polly Text-to-Speech support.
 
 ## Running Tests
 
-Make sure to write unit tests for your changes.
+To ensure the stability of the package, write unit tests for any changes and run them with:
 
+```bash
 npm test
+```
+
+## Contributing
+
+We welcome contributions! If you'd like to help improve this package, feel free to submit issues or pull requests via our [GitHub repository](#). Please ensure all code contributions are accompanied by relevant unit tests.
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
