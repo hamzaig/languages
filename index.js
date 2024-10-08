@@ -4,7 +4,7 @@ const languages = require("./languages");
  * Validates the provided language code.
  * @param {string} langcode - The language code to validate.
  * @returns {string} - Validation message.
- * @throws {Error} - If the langcode is invalid.
+ * @throws {Error} - If the langcode is invalid
  */
 exports.isValid = function (langcode) {
   if (!langcode || typeof langcode !== "string") return null;
