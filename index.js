@@ -1,11 +1,10 @@
 const languages = require("./languages");
-const helloNpm = require("languages-details");
 
 /**
  * Validates the provided language code.
  * @param {string} langcode - The language code to validate.
  * @returns {string} - Validation message.
- * @throws {Error} - If the langcode is invalid.
+ * @throws {Error} - If the langcode is invalid
  */
 exports.isValid = function (langcode) {
   if (!langcode || typeof langcode !== "string") return null;
@@ -32,6 +31,25 @@ exports.getLanguageName = function (langcode) {
     (lang) => lang.languageCodes === langcode.toLowerCase()
   );
   return language ? language.name : null;
+};
+
+/**
+ * Retrieves the writing style of a specified language, either LTR (Left-to-Right) or RTL (Right-to-Left).
+ *
+ * @param {string} langcode - The language code to validate and retrieve the writing style.
+ * @returns {string|null} - Returns the writing style of the language if found; otherwise, returns null.
+ * @throws {Error} - Throws an error if the provided langcode is invalid (null or not a string).
+ */
+exports.getLanguageWritingStyle = function (langcode) {
+  if (!langcode || typeof langcode !== "string") {
+    return null;
+  }
+
+  const language = languages?.find(
+    (lang) => lang.languageCodes === langcode.toLowerCase()
+  );
+
+  return language ? language.writingStyle : null;
 };
 
 /**
@@ -63,5 +81,3 @@ exports.checkTranslationAvailability = function (code) {
   }
   return null;
 };
-
-module.exports = helloNpm;
