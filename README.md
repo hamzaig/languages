@@ -1,4 +1,3 @@
-
 # Language Details Package
 
 **Language Details** is a comprehensive npm package that offers detailed information about various languages. It includes locale codes, simple language codes, and indicates whether these languages are supported by popular translation and speech services like Google Translate, AWS Translate, Microsoft Translator, and more.
@@ -31,31 +30,40 @@ Below are examples showcasing the main functionalities of the package:
 ### Example 1: Check if a Language Code is Valid
 
 ```javascript
-const languageDetails = require('language-details');
+const languageDetails = require("language-details");
 
 // Validate language code
-const isValid = languageDetails.isValid('af');
-console.log(isValid);  // Output: Afrikaans (af) is a valid language code.
+const isValid = languageDetails.isValid("af");
+console.log(isValid); // Output: Afrikaans (af) is a valid language code.
 ```
 
 ### Example 2: Retrieve Language Name by Code
 
-```javascript
-const languageName = languageDetails.getLanguageName('af');
-console.log(languageName);  // Output: Afrikaans
-```
+This function supports both exact and base language code matching. For instance, if a specific regional code is not available, it will fall back to the base language.
+
+````javascript
+const languageNameExact = languageDetails.getLanguageName("af");
+console.log(languageNameExact); // Output: Afrikaans
+
+const languageNameRegional = languageDetails.getLanguageName("es-419");
+console.log(languageNameRegional); // Output: Spanish
+
+
+This example demonstrates both exact code matching (`"af" -> Afrikaans`) and base code matching (`"es-419" -> Spanish`), showcasing the enhanced functionality of your `getLanguageName` function. Let me know if this aligns with your requirements!
+
 
 ### Example 3: Check Translation and Speech Service Availability
 
 ```javascript
-const translationAvailability = languageDetails.checkTranslationAvailability('af');
+const translationAvailability =
+  languageDetails.checkTranslationAvailability("af");
 console.log(translationAvailability);
 
 // Output:
 [
   {
-    name: 'Afrikaans',
-    locale: 'af-ZA',
+    name: "Afrikaans",
+    locale: "af-ZA",
     googleTranslate: true,
     microsoftTranslate: true,
     deeplTranslate: false,
@@ -64,16 +72,16 @@ console.log(translationAvailability);
     awsTranscribe: false,
     googleStt: false,
     googleTTS: false,
-    awsPolly: false
-  }
-]
-```
+    awsPolly: false,
+  },
+];
+````
 
 ### Example 4: Retrieve Writing Style of a Language
 
 ```javascript
-const writingStyle = languageDetails.getLanguageWritingStyle('ar');
-console.log(writingStyle);  // Output: RTL
+const writingStyle = languageDetails.getLanguageWritingStyle("ar");
+console.log(writingStyle); // Output: RTL
 ```
 
 ## Available Functions
@@ -81,7 +89,7 @@ console.log(writingStyle);  // Output: RTL
 The package provides several utility functions to work with language data:
 
 - `isValid(langCode)`: Validates the provided language code and returns its name if valid.
-- `getLanguageName(langCode)`: Retrieves the language name for a given language code.
+- `getLanguageName(langCode)`: Retrieves the full language name for a given language code. Supports exact and base language code matching (e.g., returns "Spanish" for both "es-419" and "es").
 - `checkTranslationAvailability(langCode)`: Checks if the language is supported by various translation and speech services.
 - `getLanguageWritingStyle(langCode)`: Retrieves the writing style of a specified language (either LTR or RTL). If the language code is invalid, it returns null.
 
@@ -90,7 +98,7 @@ The package provides several utility functions to work with language data:
 ### `isValid(languageCode)`
 
 - **Description**: Verifies if the provided language code is valid.
-- **Parameters**: 
+- **Parameters**:
   - `languageCode` (string): The language code to validate.
 - **Returns**: A string indicating whether the code is valid, along with the language name.
 

@@ -21,15 +21,64 @@ exports.isValid = function (langcode) {
 
 /**
  * Retrieves the language name based on the language code.
+ * Searches across languageCodes, locale, and nested codes in a case-insensitive manner.
+ * If no exact match is found, it will attempt to match the base language (e.g., 'es' for 'es-419').
  * @param {string} langcode - The language code to look up.
  * @returns {string | null} - The name of the language or null if not found.
  * @throws {Error} - If the langcode is invalid.
  */
 exports.getLanguageName = function (langcode) {
-  if (!langcode || typeof langcode !== "string") return null;
-  const language = languages?.find(
-    (lang) => lang.languageCodes === langcode.toLowerCase()
+  if (!langcode || typeof langcode !== "string") {
+    throw new Error("Invalid language code provided.");
+  }
+
+  const lowerLangCode = langcode.toLowerCase();
+
+  // Function to check if a language object has a matching code
+  const matchCode = (codes) => {
+    if (typeof codes === "string") {
+      return codes.toLowerCase() === lowerLangCode;
+    } else if (Array.isArray(codes)) {
+      return codes.some((code) => code.toLowerCase() === lowerLangCode);
+    }
+    return false;
+  };
+
+  // Find the exact match first
+  let language = languages.find(
+    (lang) =>
+      matchCode(lang.languageCodes) ||
+      (lang.locale && matchCode(lang.locale)) ||
+      (lang.awsTranscribe?.code && matchCode(lang.awsTranscribe.code)) ||
+      (lang.googleStt?.code && matchCode(lang.googleStt.code)) ||
+      (lang.googleTTS?.code && matchCode(lang.googleTTS.code)) ||
+      (lang.awsPolly?.code && matchCode(lang.awsPolly.code)) ||
+      (Array.isArray(lang.googleTTS?.voice) &&
+        lang.googleTTS.voice.some((voice) => matchCode(voice.languageCodes)))
   );
+
+  // If no exact match, attempt a fallback to the base language (first two characters)
+  if (!language && lowerLangCode.length > 2) {
+    const baseLangCode = lowerLangCode.slice(0, 2);
+
+    language = languages.find(
+      (lang) =>
+        matchCode(lang.languageCodes) ||
+        (lang.locale && matchCode(lang.locale)) ||
+        (lang.awsTranscribe?.code &&
+          matchCode(lang.awsTranscribe.code.slice(0, 2))) ||
+        (lang.googleStt?.code && matchCode(lang.googleStt.code.slice(0, 2))) ||
+        (lang.googleTTS?.code && matchCode(lang.googleTTS.code.slice(0, 2))) ||
+        (lang.awsPolly?.code && matchCode(lang.awsPolly.code.slice(0, 2))) ||
+        (Array.isArray(lang.googleTTS?.voice) &&
+          lang.googleTTS.voice.some((voice) =>
+            voice.languageCodes.some((code) =>
+              code.toLowerCase().startsWith(baseLangCode)
+            )
+          ))
+    );
+  }
+
   return language ? language.name : null;
 };
 
