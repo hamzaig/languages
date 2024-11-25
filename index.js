@@ -115,11 +115,11 @@ exports.checkTranslationAvailability = function (code) {
     return matchedLanguages.map((language) => ({
       name: language.name,
       locale: language.locale,
-      googleTranslate: !!language.googleTranslate,
-      microsoftTranslate: !!language.microsoftTranslate,
-      deeplTranslate: !!language.deeplTranslate,
-      awsTranslate: !!language.awsTranslate,
-      ibmTranslate: !!language.ibmTranslate,
+      googleTranslate: language.googleTranslate || false,
+      microsoftTranslate: language.microsoftTranslate || false,
+      deeplTranslate: language.deeplTranslate || false,
+      awsTranslate: language.awsTranslate || false,
+      ibmTranslate: language.ibmTranslate || false,
       awsTranscribe: !!language.awsTranscribe
         ? language.awsTranscribe.code
         : false,

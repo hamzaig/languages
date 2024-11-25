@@ -64,10 +64,10 @@ console.log(translationAvailability);
   {
     name: "Afrikaans",
     locale: "af-ZA",
-    googleTranslate: true,
-    microsoftTranslate: true,
+    googleTranslate: "af",
+    microsoftTranslate: "af",
     deeplTranslate: false,
-    awsTranslate: true,
+    awsTranslate: "af",
     ibmTranslate: false,
     awsTranscribe: false,
     googleStt: false,
