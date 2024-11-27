@@ -77,6 +77,31 @@ console.log(translationAvailability);
 ];
 ````
 
+### Example 4: Check Translation and Speech Service Availability using Locale
+
+```javascript
+const translationAvailability =
+  languageDetails.checkTranslationAvailabilityUsingLocale("en-us");
+console.log(translationAvailability);
+
+// Output:
+[
+  {
+    name: "English",
+    locale: "en-US",
+    googleTranslate: "en",
+    microsoftTranslate: "en",
+    deeplTranslate: "EN",
+    awsTranslate: "en",
+    ibmTranslate: "en",
+    awsTranscribe: "en-US",
+    googleStt: "en-US",
+    googleTTS: "en-US",
+    awsPolly: "en-US",
+  },
+];
+```
+
 ### Example 4: Retrieve Writing Style of a Language
 
 ```javascript
@@ -91,6 +116,7 @@ The package provides several utility functions to work with language data:
 - `isValid(langCode)`: Validates the provided language code and returns its name if valid.
 - `getLanguageName(langCode)`: Retrieves the full language name for a given language code. Supports exact and base language code matching (e.g., returns "Spanish" for both "es-419" and "es").
 - `checkTranslationAvailability(langCode)`: Checks if the language is supported by various translation and speech services.
+- `checkTranslationAvailabilityUsingLocale(locale)`: Checks if the language is supported by various translation and speech services using locale.
 - `getLanguageWritingStyle(langCode)`: Retrieves the writing style of a specified language (either LTR or RTL). If the language code is invalid, it returns null.
 
 ## API Reference
@@ -115,6 +141,13 @@ The package provides several utility functions to work with language data:
 - **Parameters**:
   - `languageCode` (string): The language code to check.
 - **Returns**: An array of objects that details the support across various translation services such as Google Translate, AWS Translate, Microsoft Translator, and others.
+
+### `checkTranslationAvailabilityUsingLocale(langLocal)`
+
+- **Description**: Checks the availability of translation and speech services for a given language By passing language locale.
+- **Parameters**:
+  - `langLocal` (string): The language locale to check.
+- **Returns**: An array of objects that details the support across various translation services such as Google Translate, AWS Translate, Microsoft Translator, and others or null.
 
 ### `getLanguageWritingStyle(languageCode)`
 

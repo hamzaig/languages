@@ -130,3 +130,33 @@ exports.checkTranslationAvailability = function (code) {
   }
   return null;
 };
+
+/**
+ * Checks the translation availability for a given language code by passing locale.
+ * @param {string} locale - The language locale to check.
+ * @returns {Array | null} - An array of available translations or null if none.
+ */
+exports.checkTranslationAvailabilityUsingLocale = function (locale) {
+  const matchedLanguages = languages.filter(
+    (lang) => lang.locale.toLowerCase() === locale.toLocaleLowerCase()
+  );
+
+  if (matchedLanguages.length > 0) {
+    return matchedLanguages.map((language) => ({
+      name: language.name,
+      locale: language.locale,
+      googleTranslate: language.googleTranslate || false,
+      microsoftTranslate: language.microsoftTranslate || false,
+      deeplTranslate: language.deeplTranslate || false,
+      awsTranslate: language.awsTranslate || false,
+      ibmTranslate: language.ibmTranslate || false,
+      awsTranscribe: !!language.awsTranscribe
+        ? language.awsTranscribe.code
+        : false,
+      googleStt: !!language.googleStt ? language.googleStt.code : false,
+      googleTTS: !!language.googleTTS ? language.googleTTS.code : false,
+      awsPolly: !!language.awsPolly ? language.awsPolly.code : false,
+    }));
+  }
+  return null;
+};
