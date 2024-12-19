@@ -160,3 +160,11 @@ exports.checkTranslationAvailabilityUsingLocale = function (locale) {
   }
   return null;
 };
+
+exports.getAllLanguages = function () {
+  return languages.map(({ name, languageCodes, locale }) => ({
+    name,
+    languageCode: languageCodes,
+    locale
+  }));
+}
