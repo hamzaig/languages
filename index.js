@@ -1,4 +1,5 @@
 const languages = require("./languages");
+// import languages from "./languages";
 
 /**
  * Validates the provided language code.
@@ -165,6 +166,8 @@ exports.getAllLanguages = function () {
   return languages.map(({ name, languageCodes, locale }) => ({
     name,
     languageCode: languageCodes,
-    locale
+    locale,
   }));
-}
+};
+
+console.log(getAllLanguages());

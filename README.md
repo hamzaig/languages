@@ -109,6 +109,13 @@ const writingStyle = languageDetails.getLanguageWritingStyle("ar");
 console.log(writingStyle); // Output: RTL
 ```
 
+### Example 5: Get All Languages
+
+```javascript
+const allLanguages = languageDetails.getAllLanguages();
+console.log(allLanguages); // Output: All available languages
+```
+
 ## Available Functions
 
 The package provides several utility functions to work with language data:
@@ -118,6 +125,7 @@ The package provides several utility functions to work with language data:
 - `checkTranslationAvailability(langCode)`: Checks if the language is supported by various translation and speech services.
 - `checkTranslationAvailabilityUsingLocale(locale)`: Checks if the language is supported by various translation and speech services using locale.
 - `getLanguageWritingStyle(langCode)`: Retrieves the writing style of a specified language (either LTR or RTL). If the language code is invalid, it returns null.
+- `getAllLanguages()`: Returns an array of all available languages.
 
 ## API Reference
 
@@ -156,6 +164,11 @@ The package provides several utility functions to work with language data:
   - `languageCode` (string): The language code to validate and retrieve the writing style.
 - **Returns**: Returns the writing style of the language if found; otherwise, returns `null`.
 - **Throws**: An error if the provided `languageCode` is invalid (null or not a string).
+
+### `getAllLanguages()`
+
+- **Description**: Returns an array of all available languages.
+- **Returns**: An array of objects containing language details, such as name, locale, and writing style.
 
 ## Supported Services
 
