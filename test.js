@@ -1,3 +1,7 @@
-const { getLanguageName } = require(".");
+// const { getAllLanguages } = require(".");
 
-console.log(getLanguageName("es-419"));
+// console.log(getAllLanguages());
+
+const languages = require("./languages");
+
+console.log(languages);
