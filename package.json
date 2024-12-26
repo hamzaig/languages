@@ -1,6 +1,6 @@
 {
   "name": "languages-details",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "This package provides detailed information about various languages, including locale codes, simple language codes, and support across popular translation services such as Google Translate, AWS Translate, Microsoft Translator, and others.",
   "main": "index.js",
   "scripts": {
