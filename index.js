@@ -169,5 +169,3 @@ exports.getAllLanguages = function () {
     locale,
   }));
 };
-
-console.log(getAllLanguages());
