@@ -172,7 +172,7 @@ exports.getAllLanguages = function () {
 
 exports.getGoogleTranslateSupportedLanguages = function () {
   return languages
-    .filter((lang) => lang.googleTranslate === true)
+    .filter((lang) => lang.googleTranslate && lang.googleTranslate !== false)
     .map((lang) => ({
       name: lang.name,
       languageCodes: lang.languageCodes,
