@@ -1,5 +1,7 @@
 # Language Details Package
 
+Created By [Chat GPT Translator](https://www.gpttranslator.co)
+
 **Language Details** is a comprehensive npm package that offers detailed information about various languages. It includes locale codes, simple language codes, and indicates whether these languages are supported by popular translation and speech services like Google Translate, AWS Translate, Microsoft Translator, and more.
 
 ## Installation
