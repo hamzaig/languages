@@ -169,3 +169,13 @@ exports.getAllLanguages = function () {
     locale,
   }));
 };
+
+exports.getGoogleTranslateSupportedLanguages = function () {
+  return languages
+    .filter((lang) => lang.googleTranslate === true)
+    .map((lang) => ({
+      name: lang.name,
+      languageCodes: lang.languageCodes,
+      locale: lang.locale,
+    }));
+};
